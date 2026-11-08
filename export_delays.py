@@ -3,7 +3,7 @@
 
 Format: {"example": false, "updated": "YYYY-MM-DDTHH:MM", "stops": [...],
          "trains": [{"d": date, "n": train_no, "c": 0|1,
-                     "s": [[stop_index, departure_min, arrival_delay_min, arrival_min], ...]}]}
+                     "s": [[stop_index, departure_min, arrival_delay_min, arrival_min, departure_delay_min|null], ...]}]}
 """
 import json
 import os
@@ -47,7 +47,8 @@ def main():
             dep_min = mins(first["scheduled"])
             arr_min = mins(arr["scheduled"]) if arr else dep_min
             delay = round(max((arr or dep)["delay_s"], 0) / 60)
-            s_list.append([stops.index(name), dep_min, delay, arr_min])
+            dep_delay = round(max(dep["delay_s"], 0) / 60) if dep and dep.get("delay_s") is not None else None
+            s_list.append([stops.index(name), dep_min, delay, arr_min, dep_delay])
         s_list.sort(key=lambda x: x[1])  # stops in travel order
         t["s"] = s_list
         out.append(t)

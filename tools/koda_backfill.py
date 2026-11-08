@@ -155,7 +155,8 @@ def to_doc(trains):
             day, dmin = local_min(dep_sched)
             _, amin = local_min(arr_sched)
             delay = round(max(s.get("arr_d", s.get("dep_d", 0)), 0) / 60)
-            s_list.append([ORDER.index(label), dmin, delay, amin])
+            dd = round(max(s["dep_d"], 0) / 60) if s.get("dep_t") else None
+            s_list.append([ORDER.index(label), dmin, delay, amin, dd])
         if len(s_list) >= 2 and day:
             s_list.sort(key=lambda x: x[1])
             out.append({"d": day, "n": t["n"], "c": t["c"], "s": s_list})
