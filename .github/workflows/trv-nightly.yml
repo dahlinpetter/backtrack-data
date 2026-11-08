@@ -1,0 +1,28 @@
+name: Trafikverket nightly (Trollhättan + Älmhult)
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: trv-nightly
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch the last days from Trafikverket
+        env:
+          TRAFIKVERKET_KEY: ${{ secrets.TRAFIKVERKET_KEY }}
+        run: python tools/trv_nightly.py
+      - name: Save
+        run: |
+          git config user.name "delay-bot"
+          git config user.email "delay-bot@users.noreply.github.com"
+          git add data/trv
+          git diff --cached --quiet || git commit -m "trv: $(date -u +%F) [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break || sleep 5; done

@@ -1,0 +1,37 @@
+{
+  "_comment": "Stations whose departures and arrivals are collected every 10 minutes on weekdays. Data from Trafiklab (CC-BY 4.0).",
+  "stations": [
+    "Lund C",
+    "Malmö C",
+    "Triangeln",
+    "Hyllie",
+    "Kastrup",
+    "Ørestad",
+    "København H"
+  ],
+  "station_ids": {
+    "København H": "860000626"
+  },
+  "train_filter": {
+    "agency_contains": [],
+    "transport_mode": "TRAIN",
+    "_note": "All trains (Öresundståg and Pågatåg) are kept; both are covered by Skånetrafiken's delay compensation."
+  },
+  "compensation_rules": {
+    "_source": "Skånetrafiken/Öresundståg terms + Lag (2015:953): 50% at 20-39 min, 75% at 40-59 min, 100% at 60+ min delay at final destination",
+    "tiers": [
+      {
+        "min_minutes": 60,
+        "percent": 100
+      },
+      {
+        "min_minutes": 40,
+        "percent": 75
+      },
+      {
+        "min_minutes": 20,
+        "percent": 50
+      }
+    ]
+  }
+}
