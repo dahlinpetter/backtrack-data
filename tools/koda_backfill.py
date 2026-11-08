@@ -242,10 +242,11 @@ def main():
                     return part, f"{day} {h:02d}h: {str(e)[:160]}"
                 finally:
                     shutil.rmtree(d, ignore_errors=True); arch.unlink(missing_ok=True)
-            day_trains = {}
+            day_trains, day_errs = {}, 0
             with ThreadPoolExecutor(max_workers=len(hours)) as ex:
                 for part, err in ex.map(one_hour, hours):
                     if err:
+                        day_errs += 1
                         errors.append(err); print(f"::warning::{err}", flush=True)
                     for k, t in part.items():
                         cur = day_trains.setdefault(k, {"n": t["n"], "c": 0, "stops": {}})
@@ -253,7 +254,11 @@ def main():
                         for lab, st in t["stops"].items():
                             cur["stops"].setdefault(lab, {}).update(st)
             trains.update(day_trains)
-            state[done_key].append(day.isoformat())
+            # only mark the day done when every hour was in the archive; otherwise the next run tries again
+            if day_errs == 0:
+                state[done_key].append(day.isoformat())
+            else:
+                print(f"::warning::{day}: {day_errs} hour(s) missing, will retry next run", flush=True)
             if not a.probe:
                 save(trains, state)
                 if len(state[done_key]) % 3 == 0 and os.environ.get("GITHUB_ACTIONS"):

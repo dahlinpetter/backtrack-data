@@ -1,8 +1,9 @@
 name: Nightly history (KoDa)
 on:
   schedule:
-    # 03:20 UTC every day: fetch yesterday's complete delay history
+    # twice a day (backup; the server also starts this job): fetch the last days' complete delay history
     - cron: "20 3 * * *"
+    - cron: "20 11 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,7 +23,7 @@ jobs:
         env:
           KODA_KEY: ${{ secrets.KODA_KEY }}
         run: |
-          START=$(date -u -d '3 days ago' +%F); END=$(date -u -d 'yesterday' +%F)
+          START=$(date -u -d '5 days ago' +%F); END=$(date -u -d 'yesterday' +%F)
           python tools/koda_backfill.py --start "$START" --end "$END" --hours 3-21 --max-minutes 45
           python tools/page_history.py
       - name: Save
