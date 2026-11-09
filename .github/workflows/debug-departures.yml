@@ -6,4 +6,7 @@ jobs:
     steps:
       - env: { K: "${{ secrets.TRAFIKLAB_KEY }}" }
         run: |
-          curl -s "https://realtime-api.trafiklab.se/v1/departures/740000003?key=$K" | jq -r '.departures[] | select(.route.transport_mode=="TRAIN") | [.scheduled[11:16], (.realtime//"")[11:16], .canceled, .agency.id, .agency.name, .route.direction, .route.designation, .trip.technical_number, (.realtime_platform.designation // .scheduled_platform.designation)] | @tsv' | head -25
+          f='.departures[] | select(.route.transport_mode=="TRAIN" and .agency.id=="500000000000000110") | [.scheduled[11:16], (.realtime//"")[11:16], .delay, .canceled, .route.direction, .trip.technical_number] | @tsv'
+          echo "== Triangeln from 06:45"; curl -s "https://realtime-api.trafiklab.se/v1/departures/740001587/2026-11-09T06:45?key=$K" | jq -r "$f" | head -8
+          echo "== Triangeln now"; curl -s "https://realtime-api.trafiklab.se/v1/departures/740001587?key=$K" | jq -r "$f" | head -5
+          echo "== Malmö C from 06:40"; curl -s "https://realtime-api.trafiklab.se/v1/departures/740000003/2026-11-09T06:40?key=$K" | jq -r "$f" | head -8
