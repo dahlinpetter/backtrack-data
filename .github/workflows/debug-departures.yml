@@ -1,0 +1,9 @@
+name: Debug departures
+on: workflow_dispatch
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - env: { K: "${{ secrets.TRAFIKLAB_KEY }}" }
+        run: |
+          curl -s "https://realtime-api.trafiklab.se/v1/departures/740000003?key=$K" | jq -r '.departures[] | select(.route.transport_mode=="TRAIN") | [.scheduled[11:16], (.realtime//"")[11:16], .canceled, .agency.id, .agency.name, .route.direction, .route.designation, .trip.technical_number, (.realtime_platform.designation // .scheduled_platform.designation)] | @tsv' | head -25
