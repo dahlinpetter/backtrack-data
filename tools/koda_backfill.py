@@ -269,10 +269,11 @@ def main():
                 print(f"::warning::{day}: {day_errs} hour(s) missing, will retry next run", flush=True)
             if not a.probe:
                 save(trains, state)
-                if len(state[done_key]) % 3 == 0 and day_errs == 0 and os.environ.get("GITHUB_ACTIONS"):
+                # intermediate saves only for the normal run; a refresh saves once at the end (avoids clashing with other jobs mid-run)
+                if not a.refresh and len(state[done_key]) % 3 == 0 and day_errs == 0 and os.environ.get("GITHUB_ACTIONS"):
                     subprocess.run("git config user.name delay-bot && git config user.email delay-bot@users.noreply.github.com && "
                                    "git add data/history.json data/history_progress.json && git commit -qm 'history: progress' && "
-                                   "git pull -q --rebase && git push -q", shell=True)
+                                   "(git pull -q --rebase && git push -q) || git rebase --abort", shell=True)
             print(f"{day}: {len(day_trains)} trains ({int((time.time()-t_start)/60)} min elapsed)", flush=True)
         day += timedelta(days=1)
     if a.probe:
