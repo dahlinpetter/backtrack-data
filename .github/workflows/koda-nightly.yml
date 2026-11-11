@@ -1,7 +1,7 @@
 name: Nightly history (KoDa)
 on:
   schedule:
-    # twice a day (backup; the server also starts this job): fetch the last days' complete delay history
+    # twice a day (backup; the server also starts this job): fetch any missing day from the last 14 days (the archive can lag several days)
     - cron: "20 3 * * *"
     - cron: "20 11 * * *"
   workflow_dispatch:
@@ -19,11 +19,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install gtfs-realtime-bindings==1.0.0 protobuf && sudo apt-get install -y p7zip-full >/dev/null
-      - name: Fetch the last 3 days (missing days only)
+      - name: Fetch missing days from the last 14 days
         env:
           KODA_KEY: ${{ secrets.KODA_KEY }}
         run: |
-          START=$(date -u -d '5 days ago' +%F); END=$(date -u -d 'yesterday' +%F)
+          START=$(date -u -d '14 days ago' +%F); END=$(date -u -d 'yesterday' +%F)
           python tools/koda_backfill.py --start "$START" --end "$END" --hours 3-21 --max-minutes 45
           python tools/page_history.py
           python tools/by_hour.py
