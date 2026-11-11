@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T20:08Z",
+ "updated": "2026-11-11T22:12Z",
  "ticket": 2670,
  "periods": {
   "last_30_days": {
@@ -173,13 +173,13 @@
     {
      "window": "09:30-10:30",
      "trains": 160,
-     "late": 10,
-     "share": 6.2,
-     "days_with_claim": 10,
-     "typical_cash": 184,
-     "typical_code": 275,
-     "up_to_cash": 734,
-     "up_to_code": 1101
+     "late": 7,
+     "share": 4.4,
+     "days_with_claim": 7,
+     "typical_cash": 134,
+     "typical_code": 200,
+     "up_to_cash": 534,
+     "up_to_code": 801
     }
    ],
    "home": [
@@ -208,24 +208,24 @@
     {
      "window": "16:30-17:30",
      "trains": 270,
-     "late": 8,
-     "share": 3.0,
+     "late": 9,
+     "share": 3.3,
      "days_with_claim": 6,
-     "typical_cash": 93,
-     "typical_code": 140,
+     "typical_cash": 106,
+     "typical_code": 160,
      "up_to_cash": 400,
      "up_to_code": 601
     },
     {
      "window": "17:30-18:30",
      "trains": 193,
-     "late": 2,
-     "share": 1.0,
-     "days_with_claim": 2,
-     "typical_cash": 27,
-     "typical_code": 40,
-     "up_to_cash": 134,
-     "up_to_code": 200
+     "late": 3,
+     "share": 1.6,
+     "days_with_claim": 3,
+     "typical_cash": 43,
+     "typical_code": 65,
+     "up_to_cash": 200,
+     "up_to_code": 300
     },
     {
      "window": "18:30-19:30",
@@ -292,13 +292,13 @@
     {
      "window": "09:30-10:30",
      "trains": 60,
-     "late": 6,
-     "share": 10.0,
-     "days_with_claim": 6,
-     "typical_cash": 100,
-     "typical_code": 150,
-     "up_to_cash": 400,
-     "up_to_code": 601
+     "late": 3,
+     "share": 5.0,
+     "days_with_claim": 3,
+     "typical_cash": 50,
+     "typical_code": 75,
+     "up_to_cash": 200,
+     "up_to_code": 300
     }
    ],
    "home": [
@@ -327,24 +327,24 @@
     {
      "window": "16:30-17:30",
      "trains": 100,
-     "late": 6,
-     "share": 6.0,
+     "late": 7,
+     "share": 7.0,
      "days_with_claim": 4,
-     "typical_cash": 74,
-     "typical_code": 111,
+     "typical_cash": 87,
+     "typical_code": 131,
      "up_to_cash": 267,
      "up_to_code": 400
     },
     {
      "window": "17:30-18:30",
      "trains": 72,
-     "late": 1,
-     "share": 1.4,
-     "days_with_claim": 1,
-     "typical_cash": 13,
-     "typical_code": 20,
-     "up_to_cash": 67,
-     "up_to_code": 100
+     "late": 2,
+     "share": 2.8,
+     "days_with_claim": 2,
+     "typical_cash": 30,
+     "typical_code": 45,
+     "up_to_cash": 134,
+     "up_to_code": 200
     },
     {
      "window": "18:30-19:30",
@@ -411,13 +411,13 @@
     {
      "window": "09:30-10:30",
      "trains": 88,
-     "late": 5,
-     "share": 5.7,
-     "days_with_claim": 5,
-     "typical_cash": 83,
-     "typical_code": 125,
-     "up_to_cash": 334,
-     "up_to_code": 501
+     "late": 3,
+     "share": 3.4,
+     "days_with_claim": 3,
+     "typical_cash": 50,
+     "typical_code": 75,
+     "up_to_cash": 200,
+     "up_to_code": 300
     }
    ],
    "home": [
