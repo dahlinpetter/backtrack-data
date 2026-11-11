@@ -1,0 +1,38 @@
+name: Refresh history (re-download a date range)
+on:
+  workflow_dispatch:
+    inputs:
+      start: { description: "First day (YYYY-MM-DD)", required: true }
+      end: { description: "Last day (YYYY-MM-DD)", required: true }
+      step: { description: "Use every Nth snapshot (1 = all)", required: false, default: "2" }
+      tag: { description: "Progress tag (rerun with the same tag to continue)", required: true }
+permissions:
+  contents: write
+concurrency:
+  group: koda
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install gtfs-realtime-bindings==1.0.0 protobuf && sudo apt-get install -y p7zip-full >/dev/null
+      - name: Re-download the days
+        env:
+          KODA_KEY: ${{ secrets.KODA_KEY }}
+        run: |
+          python tools/koda_backfill.py --start "${{ inputs.start }}" --end "${{ inputs.end }}" --hours 3-21 --step "${{ inputs.step }}" --refresh "${{ inputs.tag }}" --max-minutes 330
+          python tools/page_history.py
+          python tools/by_hour.py
+          python tools/health.py
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "delay-bot"
+          git config user.email "delay-bot@users.noreply.github.com"
+          git add data/history.json data/history_progress.json data/page_history.json data/by_hour.json data/health.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "history: refresh ${{ inputs.start }}..${{ inputs.end }}"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break || sleep 5; done

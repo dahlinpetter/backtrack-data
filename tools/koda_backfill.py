@@ -181,6 +181,7 @@ def main():
     ap.add_argument("--probe", action="store_true")
     ap.add_argument("--extra", action="store_true", help="add more hours to days already done")
     ap.add_argument("--max-minutes", type=int, default=300)
+    ap.add_argument("--refresh", help="re-download these days even if done, and replace what we had (value = a tag for progress, e.g. 2026-11-11)")
     a = ap.parse_args()
     key = os.environ["KODA_KEY"].strip()
     t_start = time.time()
@@ -190,7 +191,7 @@ def main():
     hours = parse_hours(a.hours)
 
     state = json.loads(STATE.read_text()) if STATE.exists() and not a.probe else {"done": []}
-    done_key = f"done_extra_{a.hours}" if a.extra else "done"
+    done_key = f"done_refresh_{a.refresh}" if a.refresh else f"done_extra_{a.hours}" if a.extra else "done"
     state.setdefault(done_key, [])
     trains = {}
     if OUT.exists() and not a.probe:
@@ -253,15 +254,22 @@ def main():
                         cur["c"] |= t["c"]
                         for lab, st in t["stops"].items():
                             cur["stops"].setdefault(lab, {}).update(st)
+            # refresh: once the whole day downloaded cleanly, the fresh copy replaces what we had for that day
+            if a.refresh and day_errs == 0 and day_trains:
+                iso = day.isoformat()
+                for k in [k for k, v in trains.items() if "_doc" in v and v["_doc"]["d"] == iso]:
+                    del trains[k]
             trains.update(day_trains)
             # only mark the day done when every hour was in the archive; otherwise the next run tries again
             if day_errs == 0:
                 state[done_key].append(day.isoformat())
+                if a.refresh and day.isoformat() not in state["done"]:
+                    state["done"].append(day.isoformat()); state["done"].sort()
             else:
                 print(f"::warning::{day}: {day_errs} hour(s) missing, will retry next run", flush=True)
             if not a.probe:
                 save(trains, state)
-                if len(state[done_key]) % 3 == 0 and os.environ.get("GITHUB_ACTIONS"):
+                if len(state[done_key]) % 3 == 0 and day_errs == 0 and os.environ.get("GITHUB_ACTIONS"):
                     subprocess.run("git config user.name delay-bot && git config user.email delay-bot@users.noreply.github.com && "
                                    "git add data/history.json data/history_progress.json && git commit -qm 'history: progress' && "
                                    "git pull -q --rebase && git push -q", shell=True)

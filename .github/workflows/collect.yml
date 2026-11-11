@@ -24,6 +24,7 @@ jobs:
         run: |
           python collect.py
           python export_delays.py
+          python tools/health.py
       - name: Save data
         run: |
           git config user.name "delay-bot"

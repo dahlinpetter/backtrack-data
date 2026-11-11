@@ -27,11 +27,12 @@ jobs:
           python tools/koda_backfill.py --start "$START" --end "$END" --hours 3-21 --max-minutes 45
           python tools/page_history.py
           python tools/by_hour.py
+          python tools/health.py
       - name: Save
         if: always()
         run: |
           git config user.name "delay-bot"
           git config user.email "delay-bot@users.noreply.github.com"
-          git add data/history.json data/history_progress.json data/page_history.json data/by_hour.json 2>/dev/null || true
+          git add data/history.json data/history_progress.json data/page_history.json data/by_hour.json data/health.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "history: nightly KoDa"
           for i in 1 2 3; do git pull --rebase -q && git push -q && break || sleep 5; done
