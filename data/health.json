@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12T21:50",
+ "updated": "2026-11-13T05:00",
  "history_updated": "2026-11-12T20:41",
- "live_updated": "2026-11-12T21:50",
+ "live_updated": "2026-11-13T05:00",
  "ok": true,
  "problems": [],
  "waiting": [
@@ -267,6 +267,12 @@
    "hist": 0,
    "live": 182,
    "state": "waiting"
+  },
+  {
+   "d": "2026-11-12",
+   "hist": 0,
+   "live": 536,
+   "state": "live"
   }
  ]
 }
