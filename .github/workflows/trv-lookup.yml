@@ -1,0 +1,37 @@
+name: Trafikverket lookup (one day, Hyllie + Malmö C)
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Date (YYYY-MM-DD)"
+        required: true
+permissions:
+  contents: read
+jobs:
+  look:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch
+        env:
+          TRAFIKVERKET_KEY: ${{ secrets.TRAFIKVERKET_KEY }}
+        run: python tools/trv_route.py "Hyllie" "Malmö C" "${{ inputs.day }}" "${{ inputs.day }}" /tmp/out.json
+      - name: Print arrivals at Malmö C and Hyllie (planned, actual, delay)
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          d=json.load(open("/tmp/out.json"))
+          for key,label in (("b_arr","Malmö C arr"),("a_arr","Hyllie arr")):
+              for r in sorted(d[key],key=lambda r:r["AdvertisedTimeAtLocation"]):
+                  p=r["AdvertisedTimeAtLocation"][11:16]
+                  if p<"20:30":continue
+                  a=r.get("TimeAtLocation","")
+                  dl=""
+                  if a:dl=round((datetime.fromisoformat(a)-datetime.fromisoformat(r["AdvertisedTimeAtLocation"])).total_seconds()/60)
+                  frm=",".join(x.get("LocationName","") for x in r.get("FromLocation",[]))
+                  print(label,r["AdvertisedTrainIdent"],"from",frm,"planned",p,"actual",a[11:16] if a else "-","delay",dl,"CANCELLED" if r.get("Canceled") else "")
+          PY
