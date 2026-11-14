@@ -6,6 +6,7 @@ Writes data/health.json, shown at the top of the server's /stats page.
   unless the live log also has too little for it
 """
 import json
+import os
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -101,6 +102,22 @@ def main():
     print(f"health: {len(problems)} problems, {len(waiting)} waiting for the archive")
     for p_ in problems:
         print(f"::error::{p_}")
+    # morning report: yesterday, source by source, on the run's summary page
+    y = (today - timedelta(days=1)).isoformat()
+    yd = next((x for x in days if x["d"] == y), {})
+    yc = next((x for x in cross if x["d"] == y), None)
+    rep = [f"## Data report for {y}", "",
+           f"- Trafikverket (every train): {yd.get('any', 0)} trains",
+           f"- Live log: {yd.get('live', 0)} trains",
+           f"- Official archive: {yd.get('hist', 0)} trains" + ("" if yd.get("hist") else " (not published yet, normal for a few days)"),
+           f"- Day status: {yd.get('state', 'unknown')}"]
+    if yc:
+        rep.append(f"- Cross-check: archive missing {len(yc['only_trafikverket'])}, Trafikverket missing {len(yc['only_archive'])}")
+    rep += ["", "### Problems" if problems else "### No problems", *[f"- {p_}" for p_ in problems]]
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
+            fh.write("\n".join(rep) + "\n")
+    print("\n".join(rep))
     # --strict (the data watch job): fail the run, so GitHub emails the owner
     if "--strict" in sys.argv and problems:
         sys.exit(1)

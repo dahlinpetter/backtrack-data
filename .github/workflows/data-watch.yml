@@ -1,5 +1,5 @@
 name: Data watch (fails and emails on any data problem)
-# Started by the server at 07:50, 12:50 and 18:50. Fails when tools/health.py finds a problem:
+# Started by the server every morning at 07:50; reports on yesterday. Fails when tools/health.py finds a problem:
 # a day with too few trains after the archive's grace period, a 20-minute job that stopped saving,
 # or the archive missing trains that Trafikverket saw. A failed run emails the repository owner.
 on:
