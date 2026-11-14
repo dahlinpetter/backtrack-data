@@ -9,6 +9,9 @@ and for evenings and weekends the live log never sees.
 Writes data/anytrip/YYYY-MM-DD.json in the same shape as delays.json:
   {"day", "updated", "stops", "trains": [{"d","n","c","s":[[stop, sched_arr, arr_delay, sched_dep, dep_delay], ...]}]}
 Times are minutes after midnight on the train's day; delays are minutes, or null when the train hasn't got there yet.
+Trafikverket only reports Swedish stations. For trains that run to or from Denmark, Kastrup, Ørestad and København H are
+added from the usual running time to Hyllie (learned from the KoDa history), with the delay measured at Hyllie; such stops
+carry a 6th value 1 ("estimated").
 Files older than KEEP_DAYS are deleted.
 """
 import json, sys
@@ -24,6 +27,9 @@ NAMES = {"Lund C": ["Lund C", "Lund"], "Malmö C": ["Malmö C", "Malmö"], "Tria
          "Hyllie": ["Hyllie"], "Kastrup": ["Kastrup", "Københavns Lufthavn", "Kastrup lufthavn"], "Ørestad": ["Ørestad"],
          "København H": ["København H", "Köpenhamn H", "København"]}
 KEEP_DAYS = 75
+HYLLIE = STOPS.index("Hyllie")
+# minutes between Hyllie and each Danish stop: (towards Denmark, towards Sweden), median from the KoDa history
+DK_OFFSET = {STOPS.index("Kastrup"): (14, 12), STOPS.index("Ørestad"): (21, 20), STOPS.index("København H"): (29, 28)}
 OUT = Path(__file__).resolve().parents[1] / "data" / "anytrip"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -60,7 +66,12 @@ def build(sig, d, rows):
     trains = {}
     for r in rows:
         day = (r.get("ScheduledDepartureDateTime") or r["AdvertisedTimeAtLocation"])[:10]
-        t = trains.setdefault((day, r["AdvertisedTrainIdent"]), {"d": day, "n": r["AdvertisedTrainIdent"], "c": 0, "_s": {}})
+        t = trains.setdefault((day, r["AdvertisedTrainIdent"]), {"d": day, "n": r["AdvertisedTrainIdent"], "c": 0, "_s": {}, "dk": None})
+        locs = lambda k: [x.get("LocationName", "") for x in r.get(k, [])]
+        if any(x.startswith("Dk.") for x in locs("ToLocation")):
+            t["dk"] = "to"
+        elif any(x.startswith("Dk.") for x in locs("FromLocation")):
+            t["dk"] = "from"
         adv = datetime.fromisoformat(r["AdvertisedTimeAtLocation"])
         mins = adv.hour * 60 + adv.minute + (date.fromisoformat(adv.date().isoformat()) - date.fromisoformat(day)).days * 1440
         delay = None
@@ -83,10 +94,21 @@ def build(sig, d, rows):
             sd = sd if sd is not None else sa
             ad = ad if ad is not None else (dd if sa == sd else None)
             dd = dd if dd is not None else ad
-            s.append([i, sa, ad, sd, dd])
-        s.sort(key=lambda x: x[3])
+            s.append([i, sd, ad, sa, dd])  # same order as delays.json: stop, dep, arr delay, arr, dep delay
+        h = next((x for x in s if x[0] == HYLLIE), None)
+        if h and t["dk"]:
+            for i, (to_dk, to_se) in DK_OFFSET.items():
+                if any(x[0] == i for x in s):
+                    continue
+                if t["dk"] == "to":  # leaves Hyllie for Denmark: arrival there estimated from Hyllie's departure
+                    m = h[1] + to_dk
+                    s.append([i, m, h[4], m, h[4], 1])
+                else:  # comes from Denmark: departure estimated from the arrival at Hyllie
+                    m = h[3] - to_se
+                    s.append([i, m, None, m, None, 1])
+        s.sort(key=lambda x: x[1])
         out.append({"d": t["d"], "n": t["n"], "c": t["c"], "s": s})
-    out.sort(key=lambda t: t["s"][0][3])
+    out.sort(key=lambda t: t["s"][0][1])
     return out
 
 
