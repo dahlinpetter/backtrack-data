@@ -203,7 +203,7 @@ def main():
     errors = []
     day = start
     while day <= end:
-        if day.isoweekday() <= 5 and day.isoformat() not in state[done_key]:
+        if day.isoformat() not in state[done_key]:  # every day: weekends and evenings matter for "Any trip"
             if time.time() - t_start > a.max_minutes * 60:
                 note(f"Time budget used; stopping before {day}. Run again to continue.")
                 break

@@ -24,7 +24,7 @@ jobs:
           KODA_KEY: ${{ secrets.KODA_KEY }}
         run: |
           START=$(date -u -d '14 days ago' +%F); END=$(date -u -d 'yesterday' +%F)
-          python tools/koda_backfill.py --start "$START" --end "$END" --hours 3-21 --max-minutes 45
+          python tools/koda_backfill.py --start "$START" --end "$END" --hours 0-23 --max-minutes 45
           python tools/page_history.py
           python tools/by_hour.py
       - name: Save

@@ -24,7 +24,7 @@ jobs:
         env:
           KODA_KEY: ${{ secrets.KODA_KEY }}
         run: |
-          python tools/koda_backfill.py --start "${{ inputs.start }}" --end "${{ inputs.end }}" --hours 3-21 --step "${{ inputs.step }}" --refresh "${{ inputs.tag }}" --max-minutes 330
+          python tools/koda_backfill.py --start "${{ inputs.start }}" --end "${{ inputs.end }}" --hours 0-23 --step "${{ inputs.step }}" --refresh "${{ inputs.tag }}" --max-minutes 330
           python tools/page_history.py
           python tools/by_hour.py
       - name: Save

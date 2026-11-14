@@ -112,6 +112,32 @@ def build(sig, d, rows):
     return out
 
 
+def real_dk(trains, day):
+    """Swap estimated Danish stops for real ones from the Trafiklab live log (delays.json), where it saw the train."""
+    f = OUT.parent / "delays.json"
+    if not f.exists():
+        return 0
+    live = json.loads(f.read_text())
+    if live.get("example"):
+        return 0
+    names = live["stops"]
+    seen = {(t["d"], str(t["n"])): t for t in live["trains"] if t["d"] == day}
+    n = 0
+    for t in trains:
+        lt = seen.get((t["d"], str(t["n"])))
+        if not lt:
+            continue
+        real = {STOPS.index(names[x[0]]): x for x in lt["s"] if names[x[0]] in STOPS}
+        for k, x in enumerate(t["s"]):
+            if len(x) > 5 and x[0] in real:
+                r = real[x[0]]
+                if r[2] is None and r[4] is None:
+                    continue
+                t["s"][k] = [x[0], r[1], r[2], r[3], r[4] if len(r) > 4 else None]
+                n += 1
+    return n
+
+
 def main():
     back = int(sys.argv[1]) if len(sys.argv) > 1 else 1
     today = datetime.now(TZ).date()
@@ -123,12 +149,13 @@ def main():
             continue
         rows = fetch(sig, d)
         trains = [t for t in build(sig, d, rows) if t["d"] == d.isoformat()]
+        swapped = real_dk(trains, d.isoformat())
         if not trains:
             print(d, "no data", flush=True)
             continue
         doc = {"day": d.isoformat(), "updated": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M"), "stops": STOPS, "trains": trains}
         f.write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")))
-        print(d, len(rows), "announcements,", len(trains), "trains", flush=True)
+        print(d, len(rows), "announcements,", len(trains), "trains,", swapped, "Danish stops with real times", flush=True)
     for f in OUT.glob("*.json"):
         if f.stem < (today - timedelta(days=KEEP_DAYS)).isoformat():
             f.unlink()

@@ -138,6 +138,11 @@ def run(fetch=http_get_json, now=None):
     now_iso = now.strftime("%Y-%m-%dT%H:%M:%S")
 
     stations = list(dict.fromkeys(config.get("stations", []) + [u[s] for u in config.get("users", []) for s in ("home_station", "work_station")]))
+    # ONLY_STATIONS / ONLY_KIND narrow a run, e.g. the 24/7 job that only reads arrivals in Denmark
+    only = [x.strip() for x in os.environ.get("ONLY_STATIONS", "").split(",") if x.strip()]
+    if only:
+        stations = [s for s in stations if s in only]
+    only_kind = os.environ.get("ONLY_KIND", "").strip()
     obs_path = OBS_DIR / f"{now:%Y-%m}.json"
     store = load_json(obs_path, {})
     flt = config.get("train_filter", {})
@@ -148,6 +153,8 @@ def run(fetch=http_get_json, now=None):
         try:
             area = resolve_station(name, key, config, cache, fetch)
             for kind, endpoint, field in (("dep", "departures", "departures"), ("arr", "arrivals", "arrivals")):
+                if only_kind and kind != only_kind:
+                    continue
                 res = fetch(f"{API}/{endpoint}/{area}?key={key}")
                 for call in res.get(field, []):
                     if is_wanted(call, flt):

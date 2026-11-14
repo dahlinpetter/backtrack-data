@@ -1,0 +1,37 @@
+name: Collect arrivals in Denmark (all day, every day)
+# Trafikverket only reports Swedish stations, so real arrival times at Kastrup, Ørestad and København H
+# come from Trafiklab's boards. 3 calls every 20 minutes. anytrip.py swaps them in for its estimates.
+on:
+  schedule:
+    - cron: "3,23,43 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: collect
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch arrivals at the Danish stations
+        env:
+          TRAFIKLAB_KEY: ${{ secrets.TRAFIKLAB_KEY }}
+          ONLY_STATIONS: "Kastrup,Ørestad,København H"
+          ONLY_KIND: arr
+        run: |
+          python collect.py
+          python export_delays.py
+      - name: Save data
+        run: |
+          git config user.name "delay-bot"
+          git config user.email "delay-bot@users.noreply.github.com"
+          git add data/observations data/delays.json data/stations.json
+          git diff --cached --quiet && exit 0
+          git commit -qm "data dk: $(date -u +%FT%TZ) [skip ci]"
+          for i in 1 2 3 4; do (git pull --rebase -q origin main && git push -q origin HEAD:main) && break || (git rebase --abort 2>/dev/null; sleep 7); done
