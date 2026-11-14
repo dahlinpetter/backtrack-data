@@ -33,4 +33,4 @@ jobs:
           git add -A data/anytrip
           git diff --cached --quiet && exit 0
           git commit -qm "anytrip: $(date -u +%FT%TZ) [skip ci]"
-          for i in 1 2 3 4; do (git pull --rebase -q origin main && git push -q origin HEAD:main) && break || (git rebase --abort 2>/dev/null; sleep 7); done
+          for i in 1 2 3 4; do (git pull --rebase -X theirs -q origin main && git push -q origin HEAD:main) && break || (git rebase --abort 2>/dev/null; sleep 7); done
