@@ -55,7 +55,7 @@ def fetch(sig, d):
     n = d + timedelta(days=1)
     locs = "".join(f'<EQ name="LocationSignature" value="{s}"/>' for s in sig)
     inc = "".join(f"<INCLUDE>{f}</INCLUDE>" for f in ["AdvertisedTrainIdent", "AdvertisedTimeAtLocation", "TimeAtLocation", "Canceled",
-                                                          "ActivityType", "LocationSignature", "ScheduledDepartureDateTime"])
+                                                          "ActivityType", "LocationSignature", "ScheduledDepartureDateTime", "FromLocation", "ToLocation"])
     q = (f'<QUERY objecttype="TrainAnnouncement" schemaversion="1.9" limit="20000"><FILTER><AND><OR>{locs}</OR>'
          f'<EQ name="Advertised" value="true"/><GTE name="AdvertisedTimeAtLocation" value="{d}T00:00:00"/>'
          f'<LT name="AdvertisedTimeAtLocation" value="{n}T00:00:00"/></AND></FILTER>{inc}</QUERY>')
