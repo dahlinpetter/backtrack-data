@@ -6,6 +6,7 @@ Writes data/health.json, shown at the top of the server's /stats page.
   unless the live log also has too little for it
 """
 import json
+import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -27,6 +28,19 @@ def counts(name):
     for t in doc.get("trains", []):
         c[t["d"]] = c.get(t["d"], 0) + 1
     return c, doc.get("updated")
+
+
+def numbers(name_or_path):
+    p = name_or_path if isinstance(name_or_path, Path) else ROOT / name_or_path
+    if not p.exists():
+        return {}
+    doc = json.loads(p.read_text())
+    out = {}
+    for t in doc.get("trains", []):
+        sw = [x for x in t["s"] if x[0] <= 3 and len(x) < 6]  # stops Trafikverket reports itself (Lund C..Hyllie)
+        if len(sw) >= 2:
+            out.setdefault(t["d"], set()).add(str(t["n"]))
+    return out
 
 
 def main():
@@ -58,6 +72,18 @@ def main():
             problems.append(f"{k}: only {max(h, l, a)} trains saved and the archive never came")
         days.append({"d": k, "hist": h, "live": l, "any": a, "state": state})
         d += timedelta(days=1)
+    # cross-check: two independent sources for the same day must agree on which trains ran
+    hist_n = numbers("history.json")
+    cross = []
+    for f in sorted((ROOT / "anytrip").glob("*.json")):
+        k = f.stem
+        if k not in hist_n:
+            continue
+        tv = numbers(f).get(k, set())
+        miss_hist, miss_tv = sorted(tv - hist_n[k]), sorted(hist_n[k] - tv)
+        cross.append({"d": k, "trafikverket": len(tv), "archive": len(hist_n[k]), "only_trafikverket": miss_hist[:40], "only_archive": miss_tv[:40]})
+        if len(miss_hist) > 0.05 * max(1, len(tv)):
+            problems.append(f"{k}: the archive is missing {len(miss_hist)} of {len(tv)} trains Trafikverket saw (e.g. {', '.join(miss_hist[:5])})")
     now = datetime.now(TZ)
     def stale(label, iso):
         if not iso:
@@ -70,9 +96,14 @@ def main():
     stale("Any trip (every train, Trafikverket)", json.loads(tf.read_text()).get("updated") if tf.exists() else None)
     stale("Live log incl. Danish arrivals", live_upd)
     doc = {"updated": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M"), "history_updated": hist_upd, "live_updated": live_upd,
-           "ok": not problems, "problems": problems, "waiting": waiting, "days": days}
+           "ok": not problems, "problems": problems, "cross": cross, "waiting": waiting, "days": days}
     (ROOT / "health.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1))
-    print(f"health: {len(problems)} gaps, {len(waiting)} waiting for the archive")
+    print(f"health: {len(problems)} problems, {len(waiting)} waiting for the archive")
+    for p_ in problems:
+        print(f"::error::{p_}")
+    # --strict (the data watch job): fail the run, so GitHub emails the owner
+    if "--strict" in sys.argv and problems:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

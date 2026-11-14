@@ -1,0 +1,19 @@
+name: Data watch (fails and emails on any data problem)
+# Started by the server at 07:50, 12:50 and 18:50. Fails when tools/health.py finds a problem:
+# a day with too few trains after the archive's grace period, a 20-minute job that stopped saving,
+# or the archive missing trains that Trafikverket saw. A failed run emails the repository owner.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check every source
+        run: python tools/health.py --strict

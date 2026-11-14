@@ -136,15 +136,23 @@ def parse_hour(files, stop_map, train_trips, trains, step):
                     s["dep_t"], s["dep_d"] = su.departure.time, su.departure.delay
 
 
-def local_min(ts):
+def local_min(ts, service_day=None):
+    """Minutes after local midnight of the train's service day; trains running past midnight go above 1440."""
     dt = datetime.fromtimestamp(ts, tz=timezone.utc).astimezone(TZ)
-    return dt.strftime("%Y-%m-%d"), dt.hour * 60 + dt.minute
+    m = dt.hour * 60 + dt.minute
+    if service_day:
+        m += (dt.date() - service_day).days * 1440
+    return dt.strftime("%Y-%m-%d"), m
 
 
 def to_doc(trains):
     out = []
     for (sd, tid), t in trains.items():
-        s_list, day = [], None
+        s_list = []
+        # the train's own service date (GTFS start_date), not the date at whichever stop came last:
+        # a 23:50 train reaching Copenhagen at 00:20 still belongs to the day it set off
+        sday = datetime.strptime(sd, "%Y%m%d").date() if sd and str(sd).isdigit() and len(str(sd)) == 8 else None
+        day = sday.isoformat() if sday else None
         for label, s in t["stops"].items():
             dep_t = s.get("dep_t") or s.get("arr_t")
             arr_t = s.get("arr_t") or s.get("dep_t")
@@ -152,8 +160,9 @@ def to_doc(trains):
                 continue
             dep_sched = dep_t - (s.get("dep_d") if s.get("dep_t") else s.get("arr_d", 0))
             arr_sched = arr_t - (s.get("arr_d") if s.get("arr_t") else s.get("dep_d", 0))
-            day, dmin = local_min(dep_sched)
-            _, amin = local_min(arr_sched)
+            dday, dmin = local_min(dep_sched, sday)
+            _, amin = local_min(arr_sched, sday)
+            day = day or dday
             delay = round(max(s.get("arr_d", s.get("dep_d", 0)), 0) / 60)
             dd = round(max(s["dep_d"], 0) / 60) if s.get("dep_t") else None
             s_list.append([ORDER.index(label), dmin, delay, amin, dd])
@@ -259,7 +268,15 @@ def main():
                 iso = day.isoformat()
                 for k in [k for k, v in trains.items() if "_doc" in v and v["_doc"]["d"] == iso]:
                     del trains[k]
-            trains.update(day_trains)
+            # a train past midnight shows up in two days' downloads: merge its stops, never let the later part replace the earlier
+            for k, v in day_trains.items():
+                cur = trains.get(k)
+                if cur and "_doc" not in cur:
+                    cur["c"] |= v["c"]
+                    for lab, st in v["stops"].items():
+                        cur["stops"].setdefault(lab, {}).update(st)
+                else:
+                    trains[k] = v
             # only mark the day done when every hour was in the archive; otherwise the next run tries again
             if day_errs == 0:
                 state[done_key].append(day.isoformat())
