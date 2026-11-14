@@ -1,11 +1,10 @@
 {
- "updated": "2026-11-14T12:47",
+ "updated": "2026-11-14T13:07",
  "history_updated": "2026-11-14T12:07",
- "live_updated": "2026-11-14T10:25",
- "ok": false,
- "problems": [
-  "Live log incl. Danish arrivals: last saved 10:25 2026-11-14, 142 min ago"
- ],
+ "live_updated": "2026-11-14T12:53",
+ "ok": true,
+ "problems": [],
+ "cross": [],
  "waiting": [
   "2026-11-07",
   "2026-11-08",
