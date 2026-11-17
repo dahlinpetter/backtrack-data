@@ -623589,6 +623589,63 @@
   "train_no": 1028,
   "trip_id": "121120000387508552"
  },
+ "2026-11-17|121120000387508583|Kastrup|arr": {
+  "agency": "110",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Karlskrona",
+  "first_seen": "2026-11-17T20:33:10",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-17T20:33:10",
+  "max_delay_s": 0,
+  "realtime": "2026-11-17T20:58:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-17T20:58:00",
+  "start_date": "2026-11-17",
+  "station": "Kastrup",
+  "train_no": 1132,
+  "trip_id": "121120000387508583"
+ },
+ "2026-11-17|121120000387508583|København H|arr": {
+  "agency": "110",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Karlskrona",
+  "first_seen": "2026-11-17T20:33:10",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-17T20:33:10",
+  "max_delay_s": 0,
+  "realtime": "2026-11-17T20:41:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-17T20:41:00",
+  "start_date": "2026-11-17",
+  "station": "København H",
+  "train_no": 1132,
+  "trip_id": "121120000387508583"
+ },
+ "2026-11-17|121120000387508583|Ørestad|arr": {
+  "agency": "110",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Karlskrona",
+  "first_seen": "2026-11-17T20:33:10",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-17T20:33:10",
+  "max_delay_s": 0,
+  "realtime": "2026-11-17T20:51:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-17T20:51:00",
+  "start_date": "2026-11-17",
+  "station": "Ørestad",
+  "train_no": 1132,
+  "trip_id": "121120000387508583"
+ },
  "2026-11-17|121120000387508614|Hyllie|arr": {
   "agency": "110",
   "alerts": [],
@@ -632246,16 +632303,14 @@
  },
  "2026-11-17|121120000398267488|Kastrup|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": -84,
   "direction": "Göteborg C",
   "first_seen": "2026-11-17T20:13:13",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T20:42:36",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -632456,16 +632511,14 @@
  },
  "2026-11-17|121120000398267488|Ørestad|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": -120,
   "direction": "Göteborg C",
   "first_seen": "2026-11-17T20:10:21",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T20:35:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -633050,16 +633103,14 @@
  },
  "2026-11-17|121120000398267857|København H|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": 0,
   "direction": "Halmstad C",
   "first_seen": "2026-11-17T20:30:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T21:26:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -637841,18 +637892,16 @@
  },
  "2026-11-17|121120000398364677|København H|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
-  "delay_s": 1294,
+  "delay_s": 678,
   "direction": "Østerport",
   "first_seen": "2026-11-17T19:30:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 1294,
-  "realtime": "2026-11-17T20:49:34",
+  "realtime": "2026-11-17T20:39:18",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-17T20:28:00",
   "start_date": "2026-11-17",
@@ -638009,18 +638058,16 @@
  },
  "2026-11-17|121120000398364677|Ørestad|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
-  "delay_s": 1411,
+  "delay_s": 868,
   "direction": "Østerport",
   "first_seen": "2026-11-17T19:20:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 1411,
-  "realtime": "2026-11-17T20:43:31",
+  "realtime": "2026-11-17T20:34:28",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-17T20:20:00",
   "start_date": "2026-11-17",
@@ -638387,16 +638434,14 @@
  },
  "2026-11-17|121120000398364735|Kastrup|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": -83,
   "direction": "Østerport",
   "first_seen": "2026-11-17T20:13:13",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T21:11:37",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -638429,16 +638474,14 @@
  },
  "2026-11-17|121120000398364735|København H|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": -185,
   "direction": "Østerport",
   "first_seen": "2026-11-17T20:30:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T21:24:55",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -638576,16 +638619,14 @@
  },
  "2026-11-17|121120000398364735|Ørestad|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": -70,
   "direction": "Østerport",
   "first_seen": "2026-11-17T20:20:18",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T21:18:50",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -642444,18 +642485,16 @@
  },
  "2026-11-17|121120000398888857|København H|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
-  "delay_s": 288,
+  "delay_s": 520,
   "direction": "Østerport",
   "first_seen": "2026-11-17T19:40:16",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
-  "max_delay_s": 288,
-  "realtime": "2026-11-17T20:48:48",
+  "last_seen": "2026-11-17T20:33:10",
+  "max_delay_s": 520,
+  "realtime": "2026-11-17T20:52:40",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-17T20:44:00",
   "start_date": "2026-11-17",
@@ -642612,18 +642651,16 @@
  },
  "2026-11-17|121120000398888857|Ørestad|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
-  "delay_s": 486,
+  "delay_s": 718,
   "direction": "Østerport",
   "first_seen": "2026-11-17T19:40:16",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
-  "max_delay_s": 486,
-  "realtime": "2026-11-17T20:43:06",
+  "last_seen": "2026-11-17T20:33:10",
+  "max_delay_s": 718,
+  "realtime": "2026-11-17T20:46:58",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-17T20:35:00",
   "start_date": "2026-11-17",
@@ -642696,16 +642733,14 @@
  },
  "2026-11-17|121120000398888888|Kastrup|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": -83,
   "direction": "Østerport",
   "first_seen": "2026-11-17T20:30:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T21:26:37",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -646774,16 +646809,14 @@
  },
  "2026-11-17|121120000398889734|Kastrup|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": 0,
   "direction": "Växjö",
   "first_seen": "2026-11-17T20:30:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T21:28:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -646816,16 +646849,14 @@
  },
  "2026-11-17|121120000398889734|København H|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": 0,
   "direction": "Växjö",
   "first_seen": "2026-11-17T20:13:13",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T21:11:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -646858,16 +646889,14 @@
  },
  "2026-11-17|121120000398889734|Ørestad|arr": {
   "agency": "110",
-  "alerts": [
-   "Stora förseningar"
-  ],
+  "alerts": [],
   "canceled": false,
   "delay_s": 0,
   "direction": "Växjö",
   "first_seen": "2026-11-17T20:30:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 0,
   "realtime": "2026-11-17T21:21:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -651343,7 +651372,6 @@
  "2026-11-17|121120000398898843|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Stora förseningar",
    "Extra uppehåll"
   ],
   "canceled": false,
@@ -651352,7 +651380,7 @@
   "first_seen": "2026-11-17T20:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 1714,
   "realtime": "2026-11-17T21:17:59",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -651387,7 +651415,6 @@
  "2026-11-17|121120000398898843|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Stora förseningar",
    "Extra uppehåll"
   ],
   "canceled": false,
@@ -651396,7 +651423,7 @@
   "first_seen": "2026-11-17T20:13:13",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 1583,
   "realtime": "2026-11-17T21:30:58",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -651563,7 +651590,6 @@
  "2026-11-17|121120000398898843|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Stora förseningar",
    "Extra uppehåll"
   ],
   "canceled": false,
@@ -651572,7 +651598,7 @@
   "first_seen": "2026-11-17T20:10:21",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-17T20:30:15",
+  "last_seen": "2026-11-17T20:33:10",
   "max_delay_s": 1769,
   "realtime": "2026-11-17T21:25:57",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
