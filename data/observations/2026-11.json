@@ -710916,6 +710916,7 @@
  "2026-11-18|121120000387508343|Kastrup|arr": {
   "agency": "110",
   "alerts": [
+   "Inställd - Övriga avgångar",
    "Vi kör igen"
   ],
   "canceled": false,
@@ -710924,7 +710925,7 @@
   "first_seen": "2026-11-18T21:00:18",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T21:58:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -710966,7 +710967,7 @@
   "first_seen": "2026-11-18T20:50:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T21:41:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -711084,6 +711085,7 @@
  "2026-11-18|121120000387508343|Ørestad|arr": {
   "agency": "110",
   "alerts": [
+   "Inställd - Övriga avgångar",
    "Vi kör igen"
   ],
   "canceled": false,
@@ -711092,7 +711094,7 @@
   "first_seen": "2026-11-18T20:53:17",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T21:51:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -722526,14 +722528,14 @@
    "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": -83,
   "direction": "Halmstad C",
   "first_seen": "2026-11-18T20:50:15",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
-  "realtime": "2026-11-18T21:43:00",
+  "realtime": "2026-11-18T21:41:37",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-18T21:43:00",
   "start_date": "2026-11-18",
@@ -722736,14 +722738,14 @@
    "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 4,
   "direction": "Halmstad C",
   "first_seen": "2026-11-18T20:40:12",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
-  "max_delay_s": 0,
-  "realtime": "2026-11-18T21:36:00",
+  "last_seen": "2026-11-18T21:33:15",
+  "max_delay_s": 4,
+  "realtime": "2026-11-18T21:36:04",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-18T21:36:00",
   "start_date": "2026-11-18",
@@ -730607,14 +730609,14 @@
    "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -83,
+  "delay_s": 82,
   "direction": "Østerport",
   "first_seen": "2026-11-18T21:13:24",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
-  "max_delay_s": 0,
-  "realtime": "2026-11-18T22:11:37",
+  "last_seen": "2026-11-18T21:33:15",
+  "max_delay_s": 82,
+  "realtime": "2026-11-18T22:14:22",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-18T22:13:00",
   "start_date": "2026-11-18",
@@ -730640,6 +730642,27 @@
   "scheduled": "2026-11-18T22:15:00",
   "start_date": "2026-11-18",
   "station": "Kastrup",
+  "train_no": 1143,
+  "trip_id": "121120000398364996"
+ },
+ "2026-11-18|121120000398364996|København H|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 152,
+  "direction": "Østerport",
+  "first_seen": "2026-11-18T21:33:15",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-18T21:33:15",
+  "max_delay_s": 152,
+  "realtime": "2026-11-18T22:30:32",
+  "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
+  "scheduled": "2026-11-18T22:28:00",
+  "start_date": "2026-11-18",
+  "station": "København H",
   "train_no": 1143,
   "trip_id": "121120000398364996"
  },
@@ -730775,14 +730798,14 @@
    "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -70,
+  "delay_s": 219,
   "direction": "Østerport",
   "first_seen": "2026-11-18T21:20:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
-  "max_delay_s": 0,
-  "realtime": "2026-11-18T22:18:50",
+  "last_seen": "2026-11-18T21:33:15",
+  "max_delay_s": 219,
+  "realtime": "2026-11-18T22:23:39",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-18T22:20:00",
   "start_date": "2026-11-18",
@@ -732828,7 +732851,7 @@
   "first_seen": "2026-11-18T20:50:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T21:41:05",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -732996,7 +733019,7 @@
   "first_seen": "2026-11-18T20:40:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T21:34:45",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -733336,6 +733359,29 @@
   "scheduled": "2026-11-18T22:14:00",
   "start_date": "2026-11-18",
   "station": "Hyllie",
+  "train_no": 1145,
+  "trip_id": "121120000398888950"
+ },
+ "2026-11-18|121120000398888950|Kastrup|arr": {
+  "agency": "110",
+  "alerts": [
+   "Kort tåg",
+   "Vi kör igen",
+   "Inställd - Övriga avgångar"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Østerport",
+  "first_seen": "2026-11-18T21:33:15",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-18T21:33:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-18T22:28:00",
+  "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
+  "scheduled": "2026-11-18T22:28:00",
+  "start_date": "2026-11-18",
+  "station": "Kastrup",
   "train_no": 1145,
   "trip_id": "121120000398888950"
  },
@@ -736273,6 +736319,27 @@
   "train_no": 1096,
   "trip_id": "121120000398889453"
  },
+ "2026-11-18|121120000398889563|Kastrup|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Hässleholm",
+  "first_seen": "2026-11-18T21:33:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-18T21:33:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-18T22:28:00",
+  "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
+  "scheduled": "2026-11-18T22:28:00",
+  "start_date": "2026-11-18",
+  "station": "Kastrup",
+  "train_no": 1144,
+  "trip_id": "121120000398889563"
+ },
  "2026-11-18|121120000398889563|Kastrup|dep": {
   "agency": "110",
   "alerts": [
@@ -736305,7 +736372,7 @@
   "first_seen": "2026-11-18T21:13:24",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T22:11:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -736333,6 +736400,27 @@
   "scheduled": "2026-11-18T22:14:00",
   "start_date": "2026-11-18",
   "station": "København H",
+  "train_no": 1144,
+  "trip_id": "121120000398889563"
+ },
+ "2026-11-18|121120000398889563|Ørestad|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Hässleholm",
+  "first_seen": "2026-11-18T21:33:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-18T21:33:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-18T22:21:00",
+  "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
+  "scheduled": "2026-11-18T22:21:00",
+  "start_date": "2026-11-18",
+  "station": "Ørestad",
   "train_no": 1144,
   "trip_id": "121120000398889563"
  },
@@ -742209,9 +742297,9 @@
  "2026-11-18|121120000398898874|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Vi kör igen",
    "Kort tåg",
-   "Inställd - Övriga avgångar"
+   "Inställd - Övriga avgångar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": -307,
@@ -742219,7 +742307,7 @@
   "first_seen": "2026-11-18T20:53:17",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T21:52:53",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -742255,9 +742343,9 @@
  "2026-11-18|121120000398898874|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Vi kör igen",
    "Kort tåg",
-   "Inställd - Övriga avgångar"
+   "Inställd - Övriga avgångar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": -303,
@@ -742265,7 +742353,7 @@
   "first_seen": "2026-11-18T21:10:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T22:07:57",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -742439,9 +742527,9 @@
  "2026-11-18|121120000398898874|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Vi kör igen",
    "Kort tåg",
-   "Inställd - Övriga avgångar"
+   "Inställd - Övriga avgångar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": -70,
@@ -742449,7 +742537,7 @@
   "first_seen": "2026-11-18T21:10:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-18T21:20:12",
+  "last_seen": "2026-11-18T21:33:15",
   "max_delay_s": 0,
   "realtime": "2026-11-18T22:03:50",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
