@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-20T23:47",
+ "updated": "2026-11-21T00:07",
  "history_updated": "2026-11-20T20:57",
- "live_updated": "2026-11-20T23:33",
+ "live_updated": "2026-11-20T23:53",
  "ok": true,
  "problems": [],
  "cross": [],
@@ -12,13 +12,6 @@
   "2026-11-10"
  ],
  "days": [
-  {
-   "d": "2026-09-20",
-   "hist": 425,
-   "live": 0,
-   "any": 0,
-   "state": "ok"
-  },
   {
    "d": "2026-09-21",
    "hist": 481,
@@ -437,6 +430,13 @@
    "hist": 0,
    "live": 566,
    "any": 546,
+   "state": "recent"
+  },
+  {
+   "d": "2026-11-20",
+   "hist": 0,
+   "live": 528,
+   "any": 553,
    "state": "recent"
   }
  ]
