@@ -17,7 +17,7 @@ TZ = ZoneInfo("Europe/Stockholm")
 FULL = 300          # trains per weekday we call complete (normal is ~440-490)
 FULL_WEEKEND = 150  # weekends run fewer trains
 STALE_MIN = 90      # the 20-minute jobs (Any trip, Danish arrivals) must have saved within this
-LAG_DAYS = 14       # how long we wait for the archive before calling a day a gap
+LAG_DAYS = 30       # how long we wait for the archive before calling a day a gap (matches the nightly look-back)
 
 
 def counts(name):
