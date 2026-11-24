@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-24T02:07",
+ "updated": "2026-11-24T02:27",
  "history_updated": "2026-11-24T00:31",
- "live_updated": "2026-11-24T01:53",
+ "live_updated": "2026-11-24T02:13",
  "ok": true,
  "problems": [],
  "cross": [],
@@ -435,7 +435,7 @@
   {
    "d": "2026-11-23",
    "hist": 0,
-   "live": 520,
+   "live": 521,
    "any": 543,
    "state": "recent"
   }
