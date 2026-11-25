@@ -35,4 +35,5 @@ jobs:
           git add data/history.json data/history_progress.json data/page_history.json data/by_hour.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "history: refresh ${{ inputs.start }}..${{ inputs.end }}"
           git checkout -B main 2>/dev/null || true
-          for i in 1 2 3; do (git pull --rebase -q origin main && git push -q origin HEAD:main) && break || (git rebase --abort 2>/dev/null; sleep 5); done
+          # retry on a busy repo or a GitHub hiccup; "|| true" matters: under bash -e a failing rebase --abort would end the job on the first try
+          ok=; for i in 1 2 3; do if (git pull --rebase -q origin main && git push -q origin HEAD:main); then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ -n "$ok" ] || { echo "::error::push failed 3 times"; exit 1; }
