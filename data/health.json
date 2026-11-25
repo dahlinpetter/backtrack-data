@@ -1,11 +1,9 @@
 {
- "updated": "2026-11-26T00:01",
+ "updated": "2026-11-26T00:07",
  "history_updated": "2026-11-25T22:17",
  "live_updated": "2026-11-26T00:01",
- "ok": false,
- "problems": [
-  "Any trip (every train, Trafikverket): never saved"
- ],
+ "ok": true,
+ "problems": [],
  "cross": [],
  "waiting": [
   "2026-11-08",
