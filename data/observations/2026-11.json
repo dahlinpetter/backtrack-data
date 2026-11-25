@@ -1169362,14 +1169362,16 @@
  },
  "2026-11-25|121120000398268070|Kastrup|arr": {
   "agency": "110",
-  "alerts": [],
+  "alerts": [
+   "Förseningar"
+  ],
   "canceled": false,
   "delay_s": 0,
   "direction": "Lund C",
   "first_seen": "2026-11-25T23:53:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:13:20",
+  "last_seen": "2026-11-26T00:33:11",
   "max_delay_s": 0,
   "realtime": "2026-11-26T00:45:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1169419,14 +1169421,16 @@
  },
  "2026-11-25|121120000398268070|Ørestad|arr": {
   "agency": "110",
-  "alerts": [],
+  "alerts": [
+   "Förseningar"
+  ],
   "canceled": false,
   "delay_s": 0,
   "direction": "Lund C",
   "first_seen": "2026-11-25T23:53:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:13:20",
+  "last_seen": "2026-11-26T00:33:11",
   "max_delay_s": 0,
   "realtime": "2026-11-26T00:38:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1187464,14 +1187468,16 @@
  },
  "2026-11-25|121120000398892432|Kastrup|arr": {
   "agency": "110",
-  "alerts": [],
+  "alerts": [
+   "Förseningar"
+  ],
   "canceled": false,
   "delay_s": 0,
   "direction": "Lund C",
   "first_seen": "2026-11-26T00:01:47",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:13:20",
+  "last_seen": "2026-11-26T00:33:11",
   "max_delay_s": 0,
   "realtime": "2026-11-26T01:00:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1187502,14 +1187508,16 @@
  },
  "2026-11-25|121120000398892432|Ørestad|arr": {
   "agency": "110",
-  "alerts": [],
+  "alerts": [
+   "Förseningar"
+  ],
   "canceled": false,
   "delay_s": 0,
   "direction": "Lund C",
   "first_seen": "2026-11-25T23:53:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:13:20",
+  "last_seen": "2026-11-26T00:33:11",
   "max_delay_s": 0,
   "realtime": "2026-11-26T00:53:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1192492,16 +1192500,19 @@
  },
  "2026-11-25|121120000399883126|København H|arr": {
   "agency": "110",
-  "alerts": [],
+  "alerts": [
+   "Förseningar",
+   "Försening"
+  ],
   "canceled": false,
-  "delay_s": 892,
+  "delay_s": 1419,
   "direction": "København H",
   "first_seen": "2026-11-25T23:13:16",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:13:20",
-  "max_delay_s": 899,
-  "realtime": "2026-11-26T00:28:52",
+  "last_seen": "2026-11-26T00:33:11",
+  "max_delay_s": 1419,
+  "realtime": "2026-11-26T00:37:39",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T00:14:00",
   "start_date": "2026-11-25",
@@ -1192625,20 +1192636,43 @@
  },
  "2026-11-25|121120000399883147|Kastrup|arr": {
   "agency": "110",
-  "alerts": [],
+  "alerts": [
+   "Förseningar"
+  ],
   "canceled": false,
   "delay_s": 677,
   "direction": "København H",
   "first_seen": "2026-11-26T00:13:20",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:13:20",
+  "last_seen": "2026-11-26T00:33:11",
   "max_delay_s": 677,
   "realtime": "2026-11-26T01:21:17",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T01:10:00",
   "start_date": "2026-11-25",
   "station": "Kastrup",
+  "train_no": 1165,
+  "trip_id": "121120000399883147"
+ },
+ "2026-11-25|121120000399883147|København H|arr": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar"
+  ],
+  "canceled": false,
+  "delay_s": 1125,
+  "direction": "København H",
+  "first_seen": "2026-11-26T00:33:11",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T00:33:11",
+  "max_delay_s": 1125,
+  "realtime": "2026-11-26T01:43:45",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T01:25:00",
+  "start_date": "2026-11-25",
+  "station": "København H",
   "train_no": 1165,
   "trip_id": "121120000399883147"
  },
@@ -1192753,6 +1192787,27 @@
   "scheduled": "2026-11-26T00:38:00",
   "start_date": "2026-11-25",
   "station": "Triangeln",
+  "train_no": 1165,
+  "trip_id": "121120000399883147"
+ },
+ "2026-11-25|121120000399883147|Ørestad|arr": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar"
+  ],
+  "canceled": false,
+  "delay_s": 675,
+  "direction": "København H",
+  "first_seen": "2026-11-26T00:33:11",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T00:33:11",
+  "max_delay_s": 675,
+  "realtime": "2026-11-26T01:28:15",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T01:17:00",
+  "start_date": "2026-11-25",
+  "station": "Ørestad",
   "train_no": 1165,
   "trip_id": "121120000399883147"
  },
