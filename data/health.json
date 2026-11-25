@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-25T22:07",
- "history_updated": "2026-11-25T21:40",
- "live_updated": "2026-11-25T21:53",
+ "updated": "2026-11-25T22:27",
+ "history_updated": "2026-11-25T22:17",
+ "live_updated": "2026-11-25T22:13",
  "ok": true,
  "problems": [],
  "cross": [],
@@ -314,7 +314,7 @@
   },
   {
    "d": "2026-11-07",
-   "hist": 399,
+   "hist": 421,
    "live": 8,
    "any": 0,
    "state": "ok"
