@@ -1237348,7 +1237348,7 @@
  "2026-11-26|121120000383771013|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237356,7 +1237356,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:27:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237369,7 +1237369,7 @@
  "2026-11-26|121120000383771013|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237377,7 +1237377,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:33:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237390,7 +1237390,7 @@
  "2026-11-26|121120000383771013|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237398,7 +1237398,7 @@
   "first_seen": "2026-11-26T16:13:13",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:13:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237411,7 +1237411,7 @@
  "2026-11-26|121120000383771013|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237419,7 +1237419,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:15:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237432,7 +1237432,7 @@
  "2026-11-26|121120000383771013|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237440,7 +1237440,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:56:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237453,7 +1237453,7 @@
  "2026-11-26|121120000383771013|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237461,7 +1237461,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:59:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237474,7 +1237474,7 @@
  "2026-11-26|121120000383771013|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237482,7 +1237482,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:40:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237492,10 +1237492,31 @@
   "train_no": 1102,
   "trip_id": "121120000383771013"
  },
+ "2026-11-26|121120000383771013|Malmö C|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Helsingborg C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:42:00",
+  "route": "Ø Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:42:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
+  "train_no": 1102,
+  "trip_id": "121120000383771013"
+ },
  "2026-11-26|121120000383771013|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237503,7 +1237524,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:36:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237516,7 +1237537,7 @@
  "2026-11-26|121120000383771013|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237524,7 +1237545,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:36:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237537,7 +1237558,7 @@
  "2026-11-26|121120000383771013|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237545,7 +1237566,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1237558,7 +1237579,7 @@
  "2026-11-26|121120000383771013|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1237566,7 +1237587,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:07:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1240181,17 +1240202,17 @@
  "2026-11-26|121120000383771266|Lund C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -122,
+  "delay_s": 120,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T16:49:58",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 120,
+  "realtime": "2026-11-26T16:54:00",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:52:00",
   "start_date": "2026-11-26",
@@ -1240202,7 +1240223,7 @@
  "2026-11-26|121120000383771266|Lund C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1240210,7 +1240231,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:54:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1240394,6 +1240415,48 @@
   "station": "Malmö C",
   "train_no": 11014,
   "trip_id": "121120000383771736"
+ },
+ "2026-11-26|121120000383773677|Lund C|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Malmö Hyllie",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:42:00",
+  "route": "Ø Insatsturer Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:42:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 11389,
+  "trip_id": "121120000383773677"
+ },
+ "2026-11-26|121120000383773677|Lund C|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Malmö Hyllie",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:44:00",
+  "route": "Ø Insatsturer Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 11389,
+  "trip_id": "121120000383773677"
  },
  "2026-11-26|121120000383773696|Hyllie|dep": {
   "agency": "110",
@@ -1240806,17 +1240869,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1279,
+  "delay_s": 1984,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1279,
-  "realtime": "2026-11-26T17:10:19",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1984,
+  "realtime": "2026-11-26T17:22:04",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:49:00",
   "start_date": "2026-11-26",
@@ -1240828,17 +1240891,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 919,
+  "delay_s": 1624,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 919,
-  "realtime": "2026-11-26T17:10:19",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1624,
+  "realtime": "2026-11-26T17:22:04",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:55:00",
   "start_date": "2026-11-26",
@@ -1240850,17 +1240913,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1105,
+  "delay_s": 1781,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T15:40:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1105,
-  "realtime": "2026-11-26T16:54:25",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1781,
+  "realtime": "2026-11-26T17:05:41",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:36:00",
   "start_date": "2026-11-26",
@@ -1240872,17 +1240935,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1015,
+  "delay_s": 1945,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T15:40:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1015,
-  "realtime": "2026-11-26T16:54:55",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1945,
+  "realtime": "2026-11-26T17:10:25",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:38:00",
   "start_date": "2026-11-26",
@@ -1240894,17 +1240957,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1255,
+  "delay_s": 1848,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T15:20:14",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1255,
-  "realtime": "2026-11-26T16:40:55",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1848,
+  "realtime": "2026-11-26T16:50:48",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:20:00",
   "start_date": "2026-11-26",
@@ -1240916,17 +1240979,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1165,
+  "delay_s": 2003,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T15:30:13",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1165,
-  "realtime": "2026-11-26T16:41:25",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2003,
+  "realtime": "2026-11-26T16:55:23",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:22:00",
   "start_date": "2026-11-26",
@@ -1240938,17 +1241001,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1279,
+  "delay_s": 1984,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1279,
-  "realtime": "2026-11-26T17:37:19",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1984,
+  "realtime": "2026-11-26T17:49:04",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:16:00",
   "start_date": "2026-11-26",
@@ -1240960,17 +1241023,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1159,
+  "delay_s": 1864,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1159,
-  "realtime": "2026-11-26T17:37:19",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1864,
+  "realtime": "2026-11-26T17:49:04",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:18:00",
   "start_date": "2026-11-26",
@@ -1240982,17 +1241045,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1279,
+  "delay_s": 1984,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1279,
-  "realtime": "2026-11-26T17:23:19",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1984,
+  "realtime": "2026-11-26T17:35:04",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:02:00",
   "start_date": "2026-11-26",
@@ -1241004,17 +1241067,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1159,
+  "delay_s": 1864,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1159,
-  "realtime": "2026-11-26T17:23:19",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1864,
+  "realtime": "2026-11-26T17:35:04",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:04:00",
   "start_date": "2026-11-26",
@@ -1241026,17 +1241089,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1279,
+  "delay_s": 1984,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1279,
-  "realtime": "2026-11-26T17:19:19",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1984,
+  "realtime": "2026-11-26T17:31:04",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:58:00",
   "start_date": "2026-11-26",
@@ -1241048,17 +1241111,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1279,
+  "delay_s": 1984,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1279,
-  "realtime": "2026-11-26T17:19:19",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1984,
+  "realtime": "2026-11-26T17:31:04",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:58:00",
   "start_date": "2026-11-26",
@@ -1241070,17 +1241133,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1165,
+  "delay_s": 1820,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T15:30:13",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1165,
-  "realtime": "2026-11-26T16:48:25",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1820,
+  "realtime": "2026-11-26T16:59:20",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:29:00",
   "start_date": "2026-11-26",
@@ -1241092,17 +1241155,17 @@
   "agency": "110",
   "alerts": [
    "Försening",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1135,
+  "delay_s": 1821,
   "direction": "Helsingborg C",
   "first_seen": "2026-11-26T15:30:13",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1135,
-  "realtime": "2026-11-26T16:48:55",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1821,
+  "realtime": "2026-11-26T17:00:21",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:30:00",
   "start_date": "2026-11-26",
@@ -1241395,7 +1241458,7 @@
  "2026-11-26|121120000383774418|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241403,7 +1241466,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:19:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241416,7 +1241479,7 @@
  "2026-11-26|121120000383774418|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241424,7 +1241487,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:25:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241437,7 +1241500,7 @@
  "2026-11-26|121120000383774418|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241445,7 +1241508,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241458,7 +1241521,7 @@
  "2026-11-26|121120000383774418|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241466,7 +1241529,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:08:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241479,7 +1241542,7 @@
  "2026-11-26|121120000383774418|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241487,7 +1241550,7 @@
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:50:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241500,7 +1241563,7 @@
  "2026-11-26|121120000383774418|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241508,7 +1241571,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:53:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241518,10 +1241581,52 @@
   "train_no": 1376,
   "trip_id": "121120000383774418"
  },
+ "2026-11-26|121120000383774418|Lund C|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Helsingborg C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:47:00",
+  "route": "Ø Insatsturer Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:47:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 1376,
+  "trip_id": "121120000383774418"
+ },
+ "2026-11-26|121120000383774418|Lund C|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Helsingborg C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Ø Insatsturer Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 1376,
+  "trip_id": "121120000383774418"
+ },
  "2026-11-26|121120000383774418|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241529,7 +1241634,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:32:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241542,7 +1241647,7 @@
  "2026-11-26|121120000383774418|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241550,7 +1241655,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:34:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241563,7 +1241668,7 @@
  "2026-11-26|121120000383774418|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241571,7 +1241676,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:28:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241584,7 +1241689,7 @@
  "2026-11-26|121120000383774418|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241592,7 +1241697,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:28:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241605,7 +1241710,7 @@
  "2026-11-26|121120000383774418|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241613,7 +1241718,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:00:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241626,7 +1241731,7 @@
  "2026-11-26|121120000383774418|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241634,7 +1241739,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:01:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241643,6 +1241748,27 @@
   "station": "Ørestad",
   "train_no": 1376,
   "trip_id": "121120000383774418"
+ },
+ "2026-11-26|121120000383774445|København H|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Helsingborg C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:50:00",
+  "route": "Ø Insatsturer Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:50:00",
+  "start_date": "2026-11-26",
+  "station": "København H",
+  "train_no": 1382,
+  "trip_id": "121120000383774445"
  },
  "2026-11-26|121120000383775051|Hyllie|arr": {
   "agency": "110",
@@ -1241910,10 +1242036,31 @@
   "train_no": 1324,
   "trip_id": "121120000383775051"
  },
+ "2026-11-26|121120000383775077|Hyllie|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Helsingborg C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Ø Insatsturer Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1378,
+  "trip_id": "121120000383775077"
+ },
  "2026-11-26|121120000383775077|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241921,7 +1242068,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:36:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241934,7 +1242081,7 @@
  "2026-11-26|121120000383775077|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241942,7 +1242089,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:38:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241955,7 +1242102,7 @@
  "2026-11-26|121120000383775077|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241963,7 +1242110,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:17:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241976,7 +1242123,7 @@
  "2026-11-26|121120000383775077|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1241984,7 +1242131,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:22:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1241997,7 +1242144,7 @@
  "2026-11-26|121120000383775077|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242005,7 +1242152,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:29:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1242018,7 +1242165,7 @@
  "2026-11-26|121120000383775077|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242026,7 +1242173,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:30:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1242172,7 +1242319,7 @@
  "2026-11-26|121120000387508397|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242180,7 +1242327,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:12:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242193,7 +1242340,7 @@
  "2026-11-26|121120000387508397|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242201,7 +1242348,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:18:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242214,7 +1242361,7 @@
  "2026-11-26|121120000387508397|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242222,7 +1242369,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:58:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242235,7 +1242382,7 @@
  "2026-11-26|121120000387508397|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242243,7 +1242390,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:00:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242298,7 +1242445,7 @@
  "2026-11-26|121120000387508397|Lund C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242306,7 +1242453,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:39:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242316,10 +1242463,31 @@
   "train_no": 1100,
   "trip_id": "121120000387508397"
  },
+ "2026-11-26|121120000387508397|Lund C|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Karlskrona",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:41:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T17:41:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 1100,
+  "trip_id": "121120000387508397"
+ },
  "2026-11-26|121120000387508397|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242327,7 +1242495,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:25:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242340,7 +1242508,7 @@
  "2026-11-26|121120000387508397|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242348,7 +1242516,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:27:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242361,7 +1242529,7 @@
  "2026-11-26|121120000387508397|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242369,7 +1242537,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:21:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242382,7 +1242550,7 @@
  "2026-11-26|121120000387508397|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242390,7 +1242558,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:21:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242403,7 +1242571,7 @@
  "2026-11-26|121120000387508397|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242411,7 +1242579,7 @@
   "first_seen": "2026-11-26T15:53:18",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:51:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242424,7 +1242592,7 @@
  "2026-11-26|121120000387508397|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1242432,7 +1242600,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:52:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1242441,6 +1242609,48 @@
   "station": "Ørestad",
   "train_no": 1100,
   "trip_id": "121120000387508397"
+ },
+ "2026-11-26|121120000387508428|København H|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Karlskrona",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:41:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T17:41:00",
+  "start_date": "2026-11-26",
+  "station": "København H",
+  "train_no": 1108,
+  "trip_id": "121120000387508428"
+ },
+ "2026-11-26|121120000387508428|København H|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Karlskrona",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:44:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "København H",
+  "train_no": 1108,
+  "trip_id": "121120000387508428"
  },
  "2026-11-26|121120000387508490|Hyllie|arr": {
   "agency": "110",
@@ -1246257,17 +1246467,17 @@
  "2026-11-26|121120000397529728|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 60,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:30:12",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:27:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 60,
+  "realtime": "2026-11-26T17:28:00",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:27:00",
   "start_date": "2026-11-26",
@@ -1246278,17 +1246488,17 @@
  "2026-11-26|121120000397529728|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 76,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:30:12",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:29:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 76,
+  "realtime": "2026-11-26T17:30:16",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:29:00",
   "start_date": "2026-11-26",
@@ -1246296,20 +1246506,62 @@
   "train_no": 1107,
   "trip_id": "121120000397529728"
  },
- "2026-11-26|121120000397529728|Lund C|arr": {
+ "2026-11-26|121120000397529728|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": -275,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:38:25",
+  "route": "Ø Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:43:00",
+  "start_date": "2026-11-26",
+  "station": "Kastrup",
+  "train_no": 1107,
+  "trip_id": "121120000397529728"
+ },
+ "2026-11-26|121120000397529728|Kastrup|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
   "direction": "Østerport",
-  "first_seen": "2026-11-26T16:10:11",
-  "is_realtime": false,
-  "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
-  "realtime": "2026-11-26T17:06:00",
+  "realtime": "2026-11-26T17:45:00",
+  "route": "Ø Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:45:00",
+  "start_date": "2026-11-26",
+  "station": "Kastrup",
+  "train_no": 1107,
+  "trip_id": "121120000397529728"
+ },
+ "2026-11-26|121120000397529728|Lund C|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 150,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:10:11",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 150,
+  "realtime": "2026-11-26T17:08:30",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:06:00",
   "start_date": "2026-11-26",
@@ -1246320,17 +1246572,17 @@
  "2026-11-26|121120000397529728|Lund C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 175,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:10:11",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:08:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 175,
+  "realtime": "2026-11-26T17:10:55",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:08:00",
   "start_date": "2026-11-26",
@@ -1246341,17 +1246593,17 @@
  "2026-11-26|121120000397529728|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 18,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:20:12",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:18:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 18,
+  "realtime": "2026-11-26T17:18:18",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:18:00",
   "start_date": "2026-11-26",
@@ -1246362,17 +1246614,17 @@
  "2026-11-26|121120000397529728|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 106,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:20:12",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:20:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 106,
+  "realtime": "2026-11-26T17:21:46",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:20:00",
   "start_date": "2026-11-26",
@@ -1246383,17 +1246635,17 @@
  "2026-11-26|121120000397529728|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 32,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:30:12",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:23:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 32,
+  "realtime": "2026-11-26T17:23:32",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:23:00",
   "start_date": "2026-11-26",
@@ -1246404,21 +1246656,42 @@
  "2026-11-26|121120000397529728|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 146,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:30:12",
-  "is_realtime": false,
+  "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:23:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 146,
+  "realtime": "2026-11-26T17:25:26",
   "route": "Ø Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T17:23:00",
   "start_date": "2026-11-26",
   "station": "Triangeln",
+  "train_no": 1107,
+  "trip_id": "121120000397529728"
+ },
+ "2026-11-26|121120000397529728|Ørestad|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": -70,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:48:50",
+  "route": "Ø Helsingborg - Malmö - København",
+  "scheduled": "2026-11-26T17:50:00",
+  "start_date": "2026-11-26",
+  "station": "Ørestad",
   "train_no": 1107,
   "trip_id": "121120000397529728"
  },
@@ -1248676,7 +1248949,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1248684,7 +1248957,7 @@
   "first_seen": "2026-11-26T15:53:18",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:58:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1248698,7 +1248971,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1248706,7 +1248979,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:04:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1248834,7 +1249107,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1248842,7 +1249115,7 @@
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:50:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1248856,7 +1249129,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1248864,7 +1249137,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:51:00",
   "route": "Ø Helsingborg - Malmö - København",
@@ -1249489,17 +1249762,17 @@
  "2026-11-26|121120000397530059|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 390,
+  "delay_s": 1059,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:40:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 390,
-  "realtime": "2026-11-26T16:41:30",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1059,
+  "realtime": "2026-11-26T16:52:39",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:35:00",
   "start_date": "2026-11-26",
@@ -1249510,17 +1249783,17 @@
  "2026-11-26|121120000397530059|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 320,
+  "delay_s": 759,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:40:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 320,
-  "realtime": "2026-11-26T16:45:20",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 759,
+  "realtime": "2026-11-26T16:52:39",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
   "scheduled": "2026-11-26T16:40:00",
   "start_date": "2026-11-26",
@@ -1250540,7 +1250813,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250548,7 +1250821,7 @@
   "first_seen": "2026-11-26T15:53:18",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 109,
   "realtime": "2026-11-26T16:51:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250562,7 +1250835,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250570,7 +1250843,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:53:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250584,7 +1250857,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250592,7 +1250865,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 23,
   "realtime": "2026-11-26T17:06:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250606,7 +1250879,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250614,7 +1250887,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:10:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250746,7 +1251019,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250754,7 +1251027,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 96,
   "realtime": "2026-11-26T16:58:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250768,7 +1251041,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250776,7 +1251049,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 36,
   "realtime": "2026-11-26T16:59:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250789,7 +1251062,7 @@
  "2026-11-26|121120000397530174|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250797,7 +1251070,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250810,7 +1251083,7 @@
  "2026-11-26|121120000397530174|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250818,7 +1251091,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:08:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250832,7 +1251105,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250840,7 +1251113,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:21:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250854,7 +1251127,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250862,7 +1251135,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:23:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250876,7 +1251149,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250884,7 +1251157,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:36:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250898,7 +1251171,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250906,7 +1251179,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:40:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250963,7 +1251236,7 @@
  "2026-11-26|121120000397530174|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250971,7 +1251244,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:56:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1250984,7 +1251257,7 @@
  "2026-11-26|121120000397530174|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1250992,7 +1251265,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:59:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1251006,7 +1251279,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251014,7 +1251287,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:02:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1251028,7 +1251301,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251036,7 +1251309,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:02:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1251050,7 +1251323,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251058,7 +1251331,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:28:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1251072,7 +1251345,7 @@
   "agency": "110",
   "alerts": [
    "Inställd - Övriga avgångar",
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251080,7 +1251353,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:29:00",
   "route": "Ø Insatsturer Helsingborg - Malmö - København",
@@ -1251625,7 +1251898,9 @@
  "2026-11-26|121120000398267546|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Tågbyte med försening",
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251633,7 +1251908,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:57:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1251646,7 +1251921,9 @@
  "2026-11-26|121120000398267546|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Tågbyte med försening",
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251654,7 +1251931,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:03:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1251747,7 +1252024,8 @@
  "2026-11-26|121120000398267546|Lund C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251755,7 +1252033,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:22:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1251768,7 +1252046,8 @@
  "2026-11-26|121120000398267546|Lund C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251776,7 +1252055,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:24:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1251789,7 +1252068,8 @@
  "2026-11-26|121120000398267546|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251797,7 +1252077,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:10:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1251810,7 +1252090,8 @@
  "2026-11-26|121120000398267546|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251818,7 +1252099,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:12:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1251831,7 +1252112,9 @@
  "2026-11-26|121120000398267546|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Tågbyte med försening",
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251839,7 +1252122,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1251852,7 +1252135,9 @@
  "2026-11-26|121120000398267546|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Tågbyte med försening",
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1251860,7 +1252145,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1252041,10 +1252326,55 @@
   "train_no": 11002,
   "trip_id": "121120000398268110"
  },
+ "2026-11-26|121120000398268139|Kastrup|arr": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar",
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Göteborg C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:43:00",
+  "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
+  "scheduled": "2026-11-26T17:43:00",
+  "start_date": "2026-11-26",
+  "station": "Kastrup",
+  "train_no": 1106,
+  "trip_id": "121120000398268139"
+ },
+ "2026-11-26|121120000398268139|Kastrup|dep": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar",
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Göteborg C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:45:00",
+  "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
+  "scheduled": "2026-11-26T17:45:00",
+  "start_date": "2026-11-26",
+  "station": "Kastrup",
+  "train_no": 1106,
+  "trip_id": "121120000398268139"
+ },
  "2026-11-26|121120000398268139|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1252052,7 +1252382,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:26:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1252065,7 +1252395,8 @@
  "2026-11-26|121120000398268139|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1252073,7 +1252404,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:29:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1252086,7 +1252417,8 @@
  "2026-11-26|121120000398268139|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1252094,7 +1252426,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:36:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1252107,7 +1252439,8 @@
  "2026-11-26|121120000398268139|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1252115,7 +1252448,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:37:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1255369,17 +1255702,18 @@
  "2026-11-26|121120000398364590|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 14,
+  "delay_s": 225,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 14,
-  "realtime": "2026-11-26T16:57:14",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 225,
+  "realtime": "2026-11-26T17:00:45",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T16:57:00",
   "start_date": "2026-11-26",
@@ -1255390,17 +1255724,18 @@
  "2026-11-26|121120000398364590|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 36,
+  "delay_s": 233,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 36,
-  "realtime": "2026-11-26T16:59:36",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 233,
+  "realtime": "2026-11-26T17:02:53",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T16:59:00",
   "start_date": "2026-11-26",
@@ -1255411,17 +1255746,18 @@
  "2026-11-26|121120000398364590|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -384,
+  "delay_s": -154,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
-  "realtime": "2026-11-26T17:06:36",
+  "realtime": "2026-11-26T17:10:26",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T17:13:00",
   "start_date": "2026-11-26",
@@ -1255432,7 +1255768,8 @@
  "2026-11-26|121120000398364590|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1255440,7 +1255777,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:15:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1255453,17 +1255790,18 @@
  "2026-11-26|121120000398364590|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -303,
+  "delay_s": -215,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
-  "realtime": "2026-11-26T17:22:57",
+  "realtime": "2026-11-26T17:24:25",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T17:28:00",
   "start_date": "2026-11-26",
@@ -1255474,7 +1255812,8 @@
  "2026-11-26|121120000398364590|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1255482,7 +1255821,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:34:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1255537,17 +1255876,18 @@
  "2026-11-26|121120000398364590|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -49,
+  "delay_s": 444,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T16:47:11",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 444,
+  "realtime": "2026-11-26T16:55:24",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T16:48:00",
   "start_date": "2026-11-26",
@@ -1255558,17 +1255898,18 @@
  "2026-11-26|121120000398364590|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 76,
+  "delay_s": 324,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 76,
-  "realtime": "2026-11-26T16:51:16",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 324,
+  "realtime": "2026-11-26T16:55:24",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T16:50:00",
   "start_date": "2026-11-26",
@@ -1255579,17 +1255920,18 @@
  "2026-11-26|121120000398364590|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -17,
+  "delay_s": 183,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T16:52:43",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 183,
+  "realtime": "2026-11-26T16:56:03",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T16:53:00",
   "start_date": "2026-11-26",
@@ -1255600,17 +1255942,18 @@
  "2026-11-26|121120000398364590|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 93,
+  "delay_s": 311,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 93,
-  "realtime": "2026-11-26T16:54:33",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 311,
+  "realtime": "2026-11-26T16:58:11",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T16:53:00",
   "start_date": "2026-11-26",
@@ -1255621,7 +1255964,8 @@
  "2026-11-26|121120000398364590|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": -70,
@@ -1255629,7 +1255973,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:18:50",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1255642,7 +1255986,8 @@
  "2026-11-26|121120000398364590|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1255650,7 +1255995,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:21:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
@@ -1255664,17 +1256009,18 @@
   "agency": "110",
   "alerts": [
    "Tågbyte med försening",
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -316,
+  "delay_s": 28,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:30:44",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 28,
+  "realtime": "2026-11-26T17:36:28",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T17:36:00",
   "start_date": "2026-11-26",
@@ -1255686,7 +1256032,8 @@
   "agency": "110",
   "alerts": [
    "Tågbyte med försening",
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1255694,13 +1256041,57 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:38:00",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T17:38:00",
   "start_date": "2026-11-26",
   "station": "Lund C",
+  "train_no": 1111,
+  "trip_id": "121120000398364619"
+ },
+ "2026-11-26|121120000398364619|Malmö C|arr": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar",
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": -49,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:47:11",
+  "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
+  "scheduled": "2026-11-26T17:48:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
+  "train_no": 1111,
+  "trip_id": "121120000398364619"
+ },
+ "2026-11-26|121120000398364619|Malmö C|dep": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar",
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:50:00",
+  "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
+  "scheduled": "2026-11-26T17:50:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
   "train_no": 1111,
   "trip_id": "121120000398364619"
  },
@@ -1258006,16 +1258397,19 @@
  },
  "2026-11-26|121120000398364967|København H|arr": {
   "agency": "110",
-  "alerts": [],
+  "alerts": [
+   "Förseningar",
+   "Vi kör igen"
+  ],
   "canceled": false,
-  "delay_s": 437,
+  "delay_s": 1409,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:30:13",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:33:12",
-  "max_delay_s": 437,
-  "realtime": "2026-11-26T16:35:17",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1409,
+  "realtime": "2026-11-26T16:51:29",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T16:28:00",
   "start_date": "2026-11-26",
@@ -1258026,17 +1258420,18 @@
  "2026-11-26|121120000398364967|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Förseningar",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 502,
+  "delay_s": 1049,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:40:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 502,
-  "realtime": "2026-11-26T16:42:22",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1049,
+  "realtime": "2026-11-26T16:51:29",
   "route": "Ø Göteborg-Halmstad-Helsingborg-Malmö-Købe",
   "scheduled": "2026-11-26T16:34:00",
   "start_date": "2026-11-26",
@@ -1259146,17 +1259541,17 @@
  "2026-11-26|121120000398582542|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -67,
+  "delay_s": 0,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 357,
-  "realtime": "2026-11-26T16:56:53",
+  "realtime": "2026-11-26T16:58:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T16:58:00",
   "start_date": "2026-11-26",
@@ -1259167,7 +1259562,7 @@
  "2026-11-26|121120000398582542|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1259175,7 +1259570,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 472,
   "realtime": "2026-11-26T17:00:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1259188,17 +1259583,18 @@
  "2026-11-26|121120000398582542|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Inställd",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -185,
+  "delay_s": 0,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:13:13",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 193,
-  "realtime": "2026-11-26T17:09:55",
+  "realtime": "2026-11-26T17:13:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T17:13:00",
   "start_date": "2026-11-26",
@@ -1259209,7 +1259605,8 @@
  "2026-11-26|121120000398582542|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Inställd",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1259217,7 +1259614,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:19:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1259344,17 +1259741,18 @@
  "2026-11-26|121120000398582542|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Inställd",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -70,
+  "delay_s": 0,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 338,
-  "realtime": "2026-11-26T17:03:50",
+  "realtime": "2026-11-26T17:05:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T17:05:00",
   "start_date": "2026-11-26",
@@ -1259365,7 +1259763,8 @@
  "2026-11-26|121120000398582542|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Inställd",
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1259373,7 +1259772,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 427,
   "realtime": "2026-11-26T17:06:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1259383,20 +1259782,62 @@
   "train_no": 1101,
   "trip_id": "121120000398582542"
  },
+ "2026-11-26|121120000398582573|Hyllie|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 71,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 71,
+  "realtime": "2026-11-26T17:43:11",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T17:42:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1109,
+  "trip_id": "121120000398582573"
+ },
+ "2026-11-26|121120000398582573|Hyllie|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 79,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 79,
+  "realtime": "2026-11-26T17:45:19",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1109,
+  "trip_id": "121120000398582573"
+ },
  "2026-11-26|121120000398582573|Lund C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 248,
+  "delay_s": 103,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 248,
-  "realtime": "2026-11-26T17:23:08",
+  "realtime": "2026-11-26T17:20:43",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T17:19:00",
   "start_date": "2026-11-26",
@@ -1259407,17 +1259848,17 @@
  "2026-11-26|121120000398582573|Lund C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 128,
+  "delay_s": 115,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 128,
-  "realtime": "2026-11-26T17:23:08",
+  "realtime": "2026-11-26T17:22:55",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T17:21:00",
   "start_date": "2026-11-26",
@@ -1259428,17 +1259869,17 @@
  "2026-11-26|121120000398582573|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -43,
+  "delay_s": 12,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:32:17",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 12,
+  "realtime": "2026-11-26T17:33:12",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T17:33:00",
   "start_date": "2026-11-26",
@@ -1259449,17 +1259890,17 @@
  "2026-11-26|121120000398582573|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 86,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:35:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 86,
+  "realtime": "2026-11-26T17:36:26",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T17:35:00",
   "start_date": "2026-11-26",
@@ -1259470,17 +1259911,17 @@
  "2026-11-26|121120000398582573|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": -99,
+  "delay_s": 27,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:36:21",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 27,
+  "realtime": "2026-11-26T17:38:27",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T17:38:00",
   "start_date": "2026-11-26",
@@ -1259491,17 +1259932,17 @@
  "2026-11-26|121120000398582573|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 0,
+  "delay_s": 134,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 0,
-  "realtime": "2026-11-26T17:38:00",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 134,
+  "realtime": "2026-11-26T17:40:14",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
   "scheduled": "2026-11-26T17:38:00",
   "start_date": "2026-11-26",
@@ -1261702,18 +1262143,18 @@
  "2026-11-26|121120000398889453|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar",
-   "Tågbyte med försening"
+   "Tågbyte med försening",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1285,
+  "delay_s": 2132,
   "direction": "Växjö",
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1285,
-  "realtime": "2026-11-26T17:03:25",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2132,
+  "realtime": "2026-11-26T17:17:32",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:42:00",
   "start_date": "2026-11-26",
@@ -1261724,18 +1262165,18 @@
  "2026-11-26|121120000398889453|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar",
-   "Tågbyte med försening"
+   "Tågbyte med försening",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1096,
+  "delay_s": 1933,
   "direction": "Växjö",
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1096,
-  "realtime": "2026-11-26T17:06:16",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1933,
+  "realtime": "2026-11-26T17:20:13",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:48:00",
   "start_date": "2026-11-26",
@@ -1261746,18 +1262187,18 @@
  "2026-11-26|121120000398889453|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar",
-   "Tågbyte med försening"
+   "Tågbyte med försening",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1413,
+  "delay_s": 2182,
   "direction": "Växjö",
   "first_seen": "2026-11-26T15:30:13",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1413,
-  "realtime": "2026-11-26T16:51:33",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2182,
+  "realtime": "2026-11-26T17:04:22",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:28:00",
   "start_date": "2026-11-26",
@@ -1261768,18 +1262209,18 @@
  "2026-11-26|121120000398889453|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar",
-   "Tågbyte med försening"
+   "Tågbyte med försening",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1451,
+  "delay_s": 2062,
   "direction": "Växjö",
   "first_seen": "2026-11-26T15:30:13",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1451,
-  "realtime": "2026-11-26T16:54:11",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2062,
+  "realtime": "2026-11-26T17:04:22",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:30:00",
   "start_date": "2026-11-26",
@@ -1261808,16 +1262249,19 @@
  },
  "2026-11-26|121120000398889453|København H|dep": {
   "agency": "110",
-  "alerts": [],
+  "alerts": [
+   "Tågbyte med försening",
+   "Vi kör igen"
+  ],
   "canceled": false,
-  "delay_s": 1129,
+  "delay_s": 2350,
   "direction": "Växjö",
   "first_seen": "2026-11-26T15:20:14",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:30:12",
-  "max_delay_s": 1129,
-  "realtime": "2026-11-26T16:32:49",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2350,
+  "realtime": "2026-11-26T16:53:10",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:14:00",
   "start_date": "2026-11-26",
@@ -1261828,17 +1262272,17 @@
  "2026-11-26|121120000398889453|Lund C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1212,
+  "delay_s": 2049,
   "direction": "Växjö",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1212,
-  "realtime": "2026-11-26T17:29:12",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2049,
+  "realtime": "2026-11-26T17:43:09",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:09:00",
   "start_date": "2026-11-26",
@@ -1261849,17 +1262293,17 @@
  "2026-11-26|121120000398889453|Lund C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1209,
+  "delay_s": 2046,
   "direction": "Växjö",
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1209,
-  "realtime": "2026-11-26T17:31:09",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2046,
+  "realtime": "2026-11-26T17:45:06",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:11:00",
   "start_date": "2026-11-26",
@@ -1261870,17 +1262314,17 @@
  "2026-11-26|121120000398889453|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 989,
+  "delay_s": 1836,
   "direction": "Växjö",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 989,
-  "realtime": "2026-11-26T17:11:29",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1836,
+  "realtime": "2026-11-26T17:25:36",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:55:00",
   "start_date": "2026-11-26",
@@ -1261891,17 +1262335,17 @@
  "2026-11-26|121120000398889453|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1073,
+  "delay_s": 1910,
   "direction": "Växjö",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1073,
-  "realtime": "2026-11-26T17:14:53",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1910,
+  "realtime": "2026-11-26T17:28:50",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:57:00",
   "start_date": "2026-11-26",
@@ -1261912,18 +1262356,18 @@
  "2026-11-26|121120000398889453|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar",
-   "Tågbyte med försening"
+   "Tågbyte med försening",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1044,
+  "delay_s": 1891,
   "direction": "Växjö",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1044,
-  "realtime": "2026-11-26T17:08:24",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1891,
+  "realtime": "2026-11-26T17:22:31",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:51:00",
   "start_date": "2026-11-26",
@@ -1261934,18 +1262378,18 @@
  "2026-11-26|121120000398889453|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar",
-   "Tågbyte med försening"
+   "Tågbyte med försening",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1145,
+  "delay_s": 1982,
   "direction": "Växjö",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1145,
-  "realtime": "2026-11-26T17:10:05",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 1982,
+  "realtime": "2026-11-26T17:24:02",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:51:00",
   "start_date": "2026-11-26",
@@ -1261956,18 +1262400,18 @@
  "2026-11-26|121120000398889453|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar",
-   "Tågbyte med försening"
+   "Tågbyte med försening",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1427,
+  "delay_s": 2264,
   "direction": "Växjö",
   "first_seen": "2026-11-26T15:30:13",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1427,
-  "realtime": "2026-11-26T16:44:47",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2264,
+  "realtime": "2026-11-26T16:58:44",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:21:00",
   "start_date": "2026-11-26",
@@ -1261978,18 +1262422,18 @@
  "2026-11-26|121120000398889453|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar",
-   "Tågbyte med försening"
+   "Tågbyte med försening",
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1485,
+  "delay_s": 2307,
   "direction": "Växjö",
   "first_seen": "2026-11-26T15:30:13",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
-  "max_delay_s": 1485,
-  "realtime": "2026-11-26T16:46:45",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 2307,
+  "realtime": "2026-11-26T17:00:27",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:22:00",
   "start_date": "2026-11-26",
@@ -1262547,10 +1262991,52 @@
   "train_no": 1048,
   "trip_id": "121120000398889760"
  },
+ "2026-11-26|121120000398889855|Hyllie|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Kalmar C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:42:00",
+  "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
+  "scheduled": "2026-11-26T17:42:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1104,
+  "trip_id": "121120000398889855"
+ },
+ "2026-11-26|121120000398889855|Hyllie|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Kalmar C",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:48:00",
+  "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
+  "scheduled": "2026-11-26T17:48:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1104,
+  "trip_id": "121120000398889855"
+ },
  "2026-11-26|121120000398889855|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1262558,7 +1263044,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:28:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -1262571,7 +1263057,7 @@
  "2026-11-26|121120000398889855|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1262579,7 +1263065,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:30:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -1262592,7 +1263078,7 @@
  "2026-11-26|121120000398889855|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1262600,7 +1263086,7 @@
   "first_seen": "2026-11-26T16:13:13",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:11:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -1262613,7 +1263099,7 @@
  "2026-11-26|121120000398889855|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1262621,7 +1263107,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:14:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -1262634,7 +1263120,7 @@
  "2026-11-26|121120000398889855|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1262642,7 +1263128,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:21:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -1262655,7 +1263141,7 @@
  "2026-11-26|121120000398889855|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
   "delay_s": 0,
@@ -1262663,7 +1263149,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:22:00",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
@@ -1265647,17 +1266133,17 @@
  "2026-11-26|121120000398923956|Hyllie|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 640,
+  "delay_s": 296,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 640,
-  "realtime": "2026-11-26T17:22:40",
+  "realtime": "2026-11-26T17:16:56",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:12:00",
   "start_date": "2026-11-26",
@@ -1265668,17 +1266154,17 @@
  "2026-11-26|121120000398923956|Hyllie|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 652,
+  "delay_s": 304,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 652,
-  "realtime": "2026-11-26T17:24:52",
+  "realtime": "2026-11-26T17:19:04",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:14:00",
   "start_date": "2026-11-26",
@@ -1265689,17 +1266175,17 @@
  "2026-11-26|121120000398923956|Kastrup|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 451,
+  "delay_s": -121,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 451,
-  "realtime": "2026-11-26T17:36:31",
+  "realtime": "2026-11-26T17:26:59",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:29:00",
   "start_date": "2026-11-26",
@@ -1265710,17 +1266196,17 @@
  "2026-11-26|121120000398923956|Kastrup|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 331,
+  "delay_s": 80,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 331,
-  "realtime": "2026-11-26T17:36:31",
+  "realtime": "2026-11-26T17:32:20",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:31:00",
   "start_date": "2026-11-26",
@@ -1265728,20 +1266214,62 @@
   "train_no": 1105,
   "trip_id": "121120000398923956"
  },
+ "2026-11-26|121120000398923956|København H|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": -103,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:42:17",
+  "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "København H",
+  "train_no": 1105,
+  "trip_id": "121120000398923956"
+ },
+ "2026-11-26|121120000398923956|København H|dep": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "København H",
+  "train_no": 1105,
+  "trip_id": "121120000398923956"
+ },
  "2026-11-26|121120000398923956|Lund C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 682,
+  "delay_s": 556,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 682,
-  "realtime": "2026-11-26T17:00:22",
+  "realtime": "2026-11-26T16:58:16",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:49:00",
   "start_date": "2026-11-26",
@@ -1265752,17 +1266280,17 @@
  "2026-11-26|121120000398923956|Lund C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 732,
+  "delay_s": 436,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 732,
-  "realtime": "2026-11-26T17:03:12",
+  "realtime": "2026-11-26T16:58:16",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:51:00",
   "start_date": "2026-11-26",
@@ -1265773,17 +1266301,17 @@
  "2026-11-26|121120000398923956|Malmö C|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 621,
+  "delay_s": 320,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 621,
-  "realtime": "2026-11-26T17:13:21",
+  "realtime": "2026-11-26T17:08:20",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:03:00",
   "start_date": "2026-11-26",
@@ -1265794,17 +1266322,17 @@
  "2026-11-26|121120000398923956|Malmö C|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 674,
+  "delay_s": 340,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 674,
-  "realtime": "2026-11-26T17:16:14",
+  "realtime": "2026-11-26T17:10:40",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:05:00",
   "start_date": "2026-11-26",
@@ -1265815,17 +1266343,17 @@
  "2026-11-26|121120000398923956|Triangeln|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 612,
+  "delay_s": 266,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 612,
-  "realtime": "2026-11-26T17:18:12",
+  "realtime": "2026-11-26T17:12:26",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:08:00",
   "start_date": "2026-11-26",
@@ -1265836,17 +1266364,17 @@
  "2026-11-26|121120000398923956|Triangeln|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 716,
+  "delay_s": 374,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 716,
-  "realtime": "2026-11-26T17:19:56",
+  "realtime": "2026-11-26T17:14:14",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:08:00",
   "start_date": "2026-11-26",
@@ -1265857,17 +1266385,17 @@
  "2026-11-26|121120000398923956|Ørestad|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 241,
+  "delay_s": 48,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 241,
-  "realtime": "2026-11-26T17:40:01",
+  "realtime": "2026-11-26T17:36:48",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:36:00",
   "start_date": "2026-11-26",
@@ -1265878,17 +1266406,17 @@
  "2026-11-26|121120000398923956|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 321,
+  "delay_s": 177,
   "direction": "Østerport",
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 321,
-  "realtime": "2026-11-26T17:42:21",
+  "realtime": "2026-11-26T17:39:57",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T17:37:00",
   "start_date": "2026-11-26",
@@ -1266161,6 +1266689,27 @@
   "station": "Ørestad",
   "train_no": 1033,
   "trip_id": "121120000398923982"
+ },
+ "2026-11-26|121120000398924013|Lund C|arr": {
+  "agency": "110",
+  "alerts": [
+   "Vi kör igen"
+  ],
+  "canceled": false,
+  "delay_s": -137,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": true,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:46:43",
+  "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 1113,
+  "trip_id": "121120000398924013"
  },
  "2026-11-26|121120000398924106|Hyllie|arr": {
   "agency": "110",
@@ -1267609,17 +1268158,17 @@
  "2026-11-26|121120000398924292|København H|arr": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 728,
+  "delay_s": 634,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:40:12",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 728,
-  "realtime": "2026-11-26T16:56:08",
+  "realtime": "2026-11-26T16:54:34",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:44:00",
   "start_date": "2026-11-26",
@@ -1267630,17 +1268179,17 @@
  "2026-11-26|121120000398924292|København H|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 672,
+  "delay_s": 573,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 672,
-  "realtime": "2026-11-26T17:00:12",
+  "realtime": "2026-11-26T16:58:33",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:49:00",
   "start_date": "2026-11-26",
@@ -1267786,17 +1268335,17 @@
  "2026-11-26|121120000398924292|Ørestad|dep": {
   "agency": "110",
   "alerts": [
-   "Förseningar"
+   "Vi kör igen"
   ],
   "canceled": false,
-  "delay_s": 1014,
+  "delay_s": 885,
   "direction": "Østerport",
   "first_seen": "2026-11-26T15:40:12",
   "is_realtime": true,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 1014,
-  "realtime": "2026-11-26T16:52:54",
+  "realtime": "2026-11-26T16:50:45",
   "route": "Ø Kalmar - Växjö - Hässleholm - Malmö - København",
   "scheduled": "2026-11-26T16:36:00",
   "start_date": "2026-11-26",
@@ -1272554,6 +1273103,44 @@
   "train_no": 1226,
   "trip_id": "400000000000001320"
  },
+ "2026-11-26|400000000000001322|Hyllie|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Trelleborg",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:45:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:45:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1227,
+  "trip_id": "400000000000001322"
+ },
+ "2026-11-26|400000000000001322|Hyllie|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Trelleborg",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:46:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:46:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1227,
+  "trip_id": "400000000000001322"
+ },
  "2026-11-26|400000000000001322|Lund C|arr": {
   "agency": "186",
   "alerts": [],
@@ -1272563,7 +1273150,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:12:00",
   "route": "Pågatåg",
@@ -1272582,7 +1273169,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:19:00",
   "route": "Pågatåg",
@@ -1272601,7 +1273188,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:36:00",
   "route": "Pågatåg",
@@ -1272620,13 +1273207,51 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:38:00",
   "route": "Pågatåg",
   "scheduled": "2026-11-26T17:38:00",
   "start_date": "2026-11-26",
   "station": "Malmö C",
+  "train_no": 1227,
+  "trip_id": "400000000000001322"
+ },
+ "2026-11-26|400000000000001322|Triangeln|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Trelleborg",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:41:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:41:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
+  "train_no": 1227,
+  "trip_id": "400000000000001322"
+ },
+ "2026-11-26|400000000000001322|Triangeln|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Trelleborg",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:41:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:41:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
   "train_no": 1227,
   "trip_id": "400000000000001322"
  },
@@ -1272639,7 +1273264,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:14:00",
   "route": "Pågatåg",
@@ -1272658,13 +1273283,51 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:15:00",
   "route": "Pågatåg",
   "scheduled": "2026-11-26T17:15:00",
   "start_date": "2026-11-26",
   "station": "Hyllie",
+  "train_no": 1228,
+  "trip_id": "400000000000001325"
+ },
+ "2026-11-26|400000000000001325|Lund C|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Kristianstads central",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:41:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:41:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 1228,
+  "trip_id": "400000000000001325"
+ },
+ "2026-11-26|400000000000001325|Lund C|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Kristianstads central",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
   "train_no": 1228,
   "trip_id": "400000000000001325"
  },
@@ -1272677,7 +1273340,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:22:00",
   "route": "Pågatåg",
@@ -1272696,7 +1273359,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:24:00",
   "route": "Pågatåg",
@@ -1272715,7 +1273378,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:18:00",
   "route": "Pågatåg",
@@ -1272734,7 +1273397,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:18:00",
   "route": "Pågatåg",
@@ -1276287,7 +1276950,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:11:00",
   "route": "Pågatåg",
@@ -1276306,7 +1276969,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:13:00",
   "route": "Pågatåg",
@@ -1276325,7 +1276988,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:52:00",
   "route": "Pågatåg",
@@ -1276344,7 +1277007,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:54:00",
   "route": "Pågatåg",
@@ -1276544,6 +1277207,82 @@
   "train_no": 1277,
   "trip_id": "400000000000001438"
  },
+ "2026-11-26|400000000000001441|Hyllie|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Höör",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:44:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1278,
+  "trip_id": "400000000000001441"
+ },
+ "2026-11-26|400000000000001441|Hyllie|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Höör",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:45:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:45:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1278,
+  "trip_id": "400000000000001441"
+ },
+ "2026-11-26|400000000000001441|Triangeln|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Höör",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:48:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:48:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
+  "train_no": 1278,
+  "trip_id": "400000000000001441"
+ },
+ "2026-11-26|400000000000001441|Triangeln|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Höör",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:48:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:48:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
+  "train_no": 1278,
+  "trip_id": "400000000000001441"
+ },
  "2026-11-26|400000000000001442|Hyllie|arr": {
   "agency": "186",
   "alerts": [],
@@ -1276553,7 +1277292,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:15:00",
   "route": "Pågatåg",
@@ -1276572,7 +1277311,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:16:00",
   "route": "Pågatåg",
@@ -1276629,7 +1277368,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Pågatåg",
@@ -1276648,7 +1277387,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:08:00",
   "route": "Pågatåg",
@@ -1276667,7 +1277406,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:11:00",
   "route": "Pågatåg",
@@ -1276686,7 +1277425,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:11:00",
   "route": "Pågatåg",
@@ -1276695,6 +1277434,44 @@
   "station": "Triangeln",
   "train_no": 1279,
   "trip_id": "400000000000001442"
+ },
+ "2026-11-26|400000000000001447|Lund C|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Trelleborg",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:47:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:47:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 1281,
+  "trip_id": "400000000000001447"
+ },
+ "2026-11-26|400000000000001447|Lund C|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Trelleborg",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 1281,
+  "trip_id": "400000000000001447"
  },
  "2026-11-26|400000000000001478|Lund C|dep": {
   "agency": "186",
@@ -1277826,7 +1278603,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:55:00",
   "route": "Pågatåg",
@@ -1277845,7 +1278622,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:55:00",
   "route": "Pågatåg",
@@ -1277864,7 +1278641,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:02:00",
   "route": "Pågatåg",
@@ -1277883,7 +1278660,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:02:00",
   "route": "Pågatåg",
@@ -1277902,7 +1278679,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:58:00",
   "route": "Pågatåg",
@@ -1277921,7 +1278698,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:58:00",
   "route": "Pågatåg",
@@ -1278054,7 +1278831,7 @@
   "first_seen": "2026-11-26T05:30:14",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:25:00",
   "route": "Pågatåg",
@@ -1278073,7 +1278850,7 @@
   "first_seen": "2026-11-26T05:30:14",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:25:00",
   "route": "Pågatåg",
@@ -1278092,7 +1278869,7 @@
   "first_seen": "2026-11-26T05:20:14",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:32:00",
   "route": "Pågatåg",
@@ -1278111,7 +1278888,7 @@
   "first_seen": "2026-11-26T05:20:14",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:32:00",
   "route": "Pågatåg",
@@ -1278130,7 +1278907,7 @@
   "first_seen": "2026-11-26T05:20:14",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:28:00",
   "route": "Pågatåg",
@@ -1278149,7 +1278926,7 @@
   "first_seen": "2026-11-26T05:20:14",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:28:00",
   "route": "Pågatåg",
@@ -1278396,7 +1279173,7 @@
   "first_seen": "2026-11-26T06:30:13",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Pågatåg",
@@ -1278415,7 +1279192,7 @@
   "first_seen": "2026-11-26T06:30:13",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Pågatåg",
@@ -1278434,7 +1279211,7 @@
   "first_seen": "2026-11-26T06:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:59:00",
   "route": "Pågatåg",
@@ -1278453,7 +1279230,7 @@
   "first_seen": "2026-11-26T06:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:59:00",
   "route": "Pågatåg",
@@ -1278472,7 +1279249,7 @@
   "first_seen": "2026-11-26T06:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:02:00",
   "route": "Pågatåg",
@@ -1278491,7 +1279268,7 @@
   "first_seen": "2026-11-26T06:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:02:00",
   "route": "Pågatåg",
@@ -1280790,7 +1281567,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:23:00",
   "route": "Pågatåg",
@@ -1280809,7 +1281586,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:24:00",
   "route": "Pågatåg",
@@ -1280828,7 +1281605,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:14:00",
   "route": "Pågatåg",
@@ -1280847,7 +1281624,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:16:00",
   "route": "Pågatåg",
@@ -1280866,7 +1281643,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:19:00",
   "route": "Pågatåg",
@@ -1280885,7 +1281662,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:19:00",
   "route": "Pågatåg",
@@ -1281018,7 +1281795,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:35:00",
   "route": "Pågatåg",
@@ -1281037,13 +1281814,32 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:37:00",
   "route": "Pågatåg",
   "scheduled": "2026-11-26T17:37:00",
   "start_date": "2026-11-26",
   "station": "Hyllie",
+  "train_no": 1428,
+  "trip_id": "400000000000001534"
+ },
+ "2026-11-26|400000000000001534|Malmö C|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Kävlinge",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:44:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
   "train_no": 1428,
   "trip_id": "400000000000001534"
  },
@@ -1281056,7 +1281852,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:19:00",
   "route": "Pågatåg",
@@ -1281075,7 +1281871,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:40:00",
   "route": "Pågatåg",
@@ -1281094,7 +1281890,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:40:00",
   "route": "Pågatåg",
@@ -1283906,7 +1284702,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:53:00",
   "route": "Pågatåg",
@@ -1283925,7 +1284721,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:54:00",
   "route": "Pågatåg",
@@ -1283944,11 +1284740,11 @@
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
-  "realtime": "2026-11-26T16:44:00",
+  "realtime": "2026-11-26T17:11:00",
   "route": "Pågatåg",
-  "scheduled": "2026-11-26T16:44:00",
+  "scheduled": "2026-11-26T17:11:00",
   "start_date": "2026-11-26",
   "station": "Malmö C",
   "train_no": 1475,
@@ -1284020,7 +1284816,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:05:00",
   "route": "Pågatåg",
@@ -1284039,7 +1284835,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:07:00",
   "route": "Pågatåg",
@@ -1284058,7 +1284854,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:14:00",
   "route": "Pågatåg",
@@ -1284077,11 +1284873,11 @@
   "first_seen": "2026-11-26T15:50:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
-  "realtime": "2026-11-26T16:49:00",
+  "realtime": "2026-11-26T17:16:00",
   "route": "Pågatåg",
-  "scheduled": "2026-11-26T16:49:00",
+  "scheduled": "2026-11-26T17:16:00",
   "start_date": "2026-11-26",
   "station": "Malmö C",
   "train_no": 1476,
@@ -1284096,7 +1284892,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:10:00",
   "route": "Pågatåg",
@@ -1284115,7 +1284911,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:10:00",
   "route": "Pågatåg",
@@ -1284124,6 +1284920,101 @@
   "station": "Triangeln",
   "train_no": 1476,
   "trip_id": "400000000000001590"
+ },
+ "2026-11-26|400000000000001591|Malmö C|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Malmö central",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:44:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
+  "train_no": 1477,
+  "trip_id": "400000000000001591"
+ },
+ "2026-11-26|400000000000001591|Malmö C|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Malmö central",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:46:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:46:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
+  "train_no": 1477,
+  "trip_id": "400000000000001591"
+ },
+ "2026-11-26|400000000000001591|Triangeln|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Malmö central",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
+  "train_no": 1477,
+  "trip_id": "400000000000001591"
+ },
+ "2026-11-26|400000000000001591|Triangeln|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Malmö central",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
+  "train_no": 1477,
+  "trip_id": "400000000000001591"
+ },
+ "2026-11-26|400000000000001592|Malmö C|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Kävlinge",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
+  "train_no": 1478,
+  "trip_id": "400000000000001592"
  },
  "2026-11-26|400000000000001611|Malmö C|dep": {
   "agency": "186",
@@ -1287364,7 +1288255,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:12:00",
   "route": "Pågatåg",
@@ -1287383,7 +1288274,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:34:00",
   "route": "Pågatåg",
@@ -1287402,7 +1288293,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:36:00",
   "route": "Pågatåg",
@@ -1287421,7 +1288312,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:19:00",
   "route": "Pågatåg",
@@ -1287440,7 +1288331,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:21:00",
   "route": "Pågatåg",
@@ -1287459,7 +1288350,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:15:00",
   "route": "Pågatåg",
@@ -1287478,7 +1288369,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:15:00",
   "route": "Pågatåg",
@@ -1287487,6 +1288378,25 @@
   "station": "Triangeln",
   "train_no": 1524,
   "trip_id": "400000000000001648"
+ },
+ "2026-11-26|400000000000001649|Hyllie|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Hyllie",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:48:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:48:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1525,
+  "trip_id": "400000000000001649"
  },
  "2026-11-26|400000000000001649|Lund C|arr": {
   "agency": "186",
@@ -1287497,7 +1288407,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:25:00",
   "route": "Pågatåg",
@@ -1287516,7 +1288426,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:27:00",
   "route": "Pågatåg",
@@ -1287535,13 +1288445,70 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:39:00",
   "route": "Pågatåg",
   "scheduled": "2026-11-26T17:39:00",
   "start_date": "2026-11-26",
   "station": "Malmö C",
+  "train_no": 1525,
+  "trip_id": "400000000000001649"
+ },
+ "2026-11-26|400000000000001649|Malmö C|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Hyllie",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:41:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:41:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
+  "train_no": 1525,
+  "trip_id": "400000000000001649"
+ },
+ "2026-11-26|400000000000001649|Triangeln|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Hyllie",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:44:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
+  "train_no": 1525,
+  "trip_id": "400000000000001649"
+ },
+ "2026-11-26|400000000000001649|Triangeln|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Hyllie",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:44:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
   "train_no": 1525,
   "trip_id": "400000000000001649"
  },
@@ -1290689,7 +1291656,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:18:00",
   "route": "Pågatåg",
@@ -1290708,7 +1291675,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:55:00",
   "route": "Pågatåg",
@@ -1290727,7 +1291694,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:57:00",
   "route": "Pågatåg",
@@ -1290746,7 +1291713,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:09:00",
   "route": "Pågatåg",
@@ -1290765,7 +1291732,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:11:00",
   "route": "Pågatåg",
@@ -1290784,7 +1291751,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:14:00",
   "route": "Pågatåg",
@@ -1290803,7 +1291770,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:14:00",
   "route": "Pågatåg",
@@ -1290841,7 +1291808,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:04:00",
   "route": "Pågatåg",
@@ -1290860,7 +1291827,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:06:00",
   "route": "Pågatåg",
@@ -1290898,7 +1291865,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:51:00",
   "route": "Pågatåg",
@@ -1290945,6 +1291912,82 @@
   "station": "Triangeln",
   "train_no": 1574,
   "trip_id": "400000000000001706"
+ },
+ "2026-11-26|400000000000001708|Hyllie|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Åstorp",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:42:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:42:00",
+  "start_date": "2026-11-26",
+  "station": "Hyllie",
+  "train_no": 1576,
+  "trip_id": "400000000000001708"
+ },
+ "2026-11-26|400000000000001708|Malmö C|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Åstorp",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:49:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:49:00",
+  "start_date": "2026-11-26",
+  "station": "Malmö C",
+  "train_no": 1576,
+  "trip_id": "400000000000001708"
+ },
+ "2026-11-26|400000000000001708|Triangeln|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Åstorp",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:45:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:45:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
+  "train_no": 1576,
+  "trip_id": "400000000000001708"
+ },
+ "2026-11-26|400000000000001708|Triangeln|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Åstorp",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:45:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:45:00",
+  "start_date": "2026-11-26",
+  "station": "Triangeln",
+  "train_no": 1576,
+  "trip_id": "400000000000001708"
  },
  "2026-11-26|400000000000001857|Hyllie|dep": {
   "agency": "186",
@@ -1294299,7 +1295342,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:59:00",
   "route": "Pågatåg",
@@ -1294318,7 +1295361,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:00:00",
   "route": "Pågatåg",
@@ -1294337,7 +1295380,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:26:00",
   "route": "Pågatåg",
@@ -1294356,7 +1295399,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:28:00",
   "route": "Pågatåg",
@@ -1294375,7 +1295418,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:07:00",
   "route": "Pågatåg",
@@ -1294394,7 +1295437,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:09:00",
   "route": "Pågatåg",
@@ -1294413,7 +1295456,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:03:00",
   "route": "Pågatåg",
@@ -1294432,7 +1295475,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:03:00",
   "route": "Pågatåg",
@@ -1294603,7 +1295646,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:00:00",
   "route": "Pågatåg",
@@ -1294622,7 +1295665,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:01:00",
   "route": "Pågatåg",
@@ -1294679,7 +1295722,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:51:00",
   "route": "Pågatåg",
@@ -1294698,7 +1295741,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:53:00",
   "route": "Pågatåg",
@@ -1294717,7 +1295760,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:56:00",
   "route": "Pågatåg",
@@ -1294736,7 +1295779,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:56:00",
   "route": "Pågatåg",
@@ -1294755,7 +1295798,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:32:00",
   "route": "Pågatåg",
@@ -1294774,7 +1295817,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:34:00",
   "route": "Pågatåg",
@@ -1298232,7 +1299275,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:56:00",
   "route": "Pågatåg",
@@ -1298251,7 +1299294,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:58:00",
   "route": "Pågatåg",
@@ -1298498,7 +1299541,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:29:00",
   "route": "Pågatåg",
@@ -1298517,7 +1299560,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:30:00",
   "route": "Pågatåg",
@@ -1298536,7 +1299579,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:37:00",
   "route": "Pågatåg",
@@ -1298555,7 +1299598,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:39:00",
   "route": "Pågatåg",
@@ -1298574,7 +1299617,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:33:00",
   "route": "Pågatåg",
@@ -1298593,7 +1299636,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:33:00",
   "route": "Pågatåg",
@@ -1298764,7 +1299807,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:30:00",
   "route": "Pågatåg",
@@ -1298783,7 +1299826,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:31:00",
   "route": "Pågatåg",
@@ -1298802,7 +1299845,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:02:00",
   "route": "Pågatåg",
@@ -1298821,7 +1299864,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:04:00",
   "route": "Pågatåg",
@@ -1298840,7 +1299883,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:21:00",
   "route": "Pågatåg",
@@ -1298859,7 +1299902,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:23:00",
   "route": "Pågatåg",
@@ -1298878,7 +1299921,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:26:00",
   "route": "Pågatåg",
@@ -1298897,7 +1299940,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:26:00",
   "route": "Pågatåg",
@@ -1300550,7 +1301593,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:21:00",
   "route": "Pågatåg",
@@ -1300569,13 +1301612,51 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:22:00",
   "route": "Pågatåg",
   "scheduled": "2026-11-26T17:22:00",
   "start_date": "2026-11-26",
   "station": "Hyllie",
+  "train_no": 11922,
+  "trip_id": "400000000000002376"
+ },
+ "2026-11-26|400000000000002376|Lund C|arr": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Hässleholm",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:45:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:45:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 11922,
+  "trip_id": "400000000000002376"
+ },
+ "2026-11-26|400000000000002376|Lund C|dep": {
+  "agency": "186",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Hässleholm",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:47:00",
+  "route": "Pågatåg",
+  "scheduled": "2026-11-26T17:47:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
   "train_no": 11922,
   "trip_id": "400000000000002376"
  },
@@ -1300588,7 +1301669,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:29:00",
   "route": "Pågatåg",
@@ -1300607,7 +1301688,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:31:00",
   "route": "Pågatåg",
@@ -1300626,7 +1301707,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:25:00",
   "route": "Pågatåg",
@@ -1300645,7 +1301726,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:25:00",
   "route": "Pågatåg",
@@ -1300664,7 +1301745,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:39:00",
   "route": "Pågatåg",
@@ -1300683,7 +1301764,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:40:00",
   "route": "Pågatåg",
@@ -1300702,7 +1301783,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:15:00",
   "route": "Pågatåg",
@@ -1300721,7 +1301802,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:17:00",
   "route": "Pågatåg",
@@ -1300740,7 +1301821,7 @@
   "first_seen": "2026-11-26T16:30:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:29:00",
   "route": "Pågatåg",
@@ -1300759,7 +1301840,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:32:00",
   "route": "Pågatåg",
@@ -1300778,7 +1301859,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:35:00",
   "route": "Pågatåg",
@@ -1300797,7 +1301878,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:35:00",
   "route": "Pågatåg",
@@ -1300845,6 +1301926,25 @@
   "train_no": 6354,
   "trip_id": "740384006354000001"
  },
+ "2026-11-26|740450029536000001|Lund C|dep": {
+  "agency": "SJ AB",
+  "alerts": [],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Stockholm Central",
+  "first_seen": "2026-11-26T16:50:15",
+  "is_realtime": false,
+  "kind": "dep",
+  "last_seen": "2026-11-26T16:50:15",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T17:44:00",
+  "route": "450",
+  "scheduled": "2026-11-26T17:44:00",
+  "start_date": "2026-11-26",
+  "station": "Lund C",
+  "train_no": 29536,
+  "trip_id": "740450029536000001"
+ },
  "2026-11-26|740450029536000001|Malmö C|dep": {
   "agency": "SJ AB",
   "alerts": [],
@@ -1300854,7 +1301954,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:31:00",
   "route": "450",
@@ -1301234,7 +1302334,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:57:00",
   "route": "489",
@@ -1301956,7 +1303056,7 @@
   "first_seen": "2026-11-26T16:00:15",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T16:53:00",
   "route": "533",
@@ -1302013,7 +1303113,7 @@
   "first_seen": "2026-11-26T16:40:20",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:40:00",
   "route": "535",
@@ -1302298,7 +1303398,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:18:00",
   "route": "546",
@@ -1302317,7 +1303417,7 @@
   "first_seen": "2026-11-26T16:20:12",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:19:00",
   "route": "546",
@@ -1302336,7 +1303436,7 @@
   "first_seen": "2026-11-26T16:10:11",
   "is_realtime": false,
   "kind": "dep",
-  "last_seen": "2026-11-26T16:40:20",
+  "last_seen": "2026-11-26T16:50:15",
   "max_delay_s": 0,
   "realtime": "2026-11-26T17:07:00",
   "route": "546",
