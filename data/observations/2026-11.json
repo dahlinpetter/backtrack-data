@@ -1156843,6 +1156843,27 @@
   "train_no": 11366,
   "trip_id": "121120000383775255"
  },
+ "2026-11-25|121120000387508265|Kastrup|arr": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Lund C",
+  "first_seen": "2026-11-26T01:13:14",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T01:13:14",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T01:54:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T01:54:00",
+  "start_date": "2026-11-25",
+  "station": "Kastrup",
+  "train_no": 1168,
+  "trip_id": "121120000387508265"
+ },
  "2026-11-25|121120000387508265|Ørestad|arr": {
   "agency": "110",
   "alerts": [
@@ -1156854,7 +1156875,7 @@
   "first_seen": "2026-11-26T00:53:13",
   "is_realtime": false,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:53:13",
+  "last_seen": "2026-11-26T01:13:14",
   "max_delay_s": 0,
   "realtime": "2026-11-26T01:47:00",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1182679,6 +1182700,69 @@
   "train_no": 1093,
   "trip_id": "121120000398582852"
  },
+ "2026-11-25|121120000398583364|Kastrup|arr": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T01:13:14",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T01:13:14",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T01:55:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T01:55:00",
+  "start_date": "2026-11-25",
+  "station": "Kastrup",
+  "train_no": 1177,
+  "trip_id": "121120000398583364"
+ },
+ "2026-11-25|121120000398583364|København H|arr": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T01:13:14",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T01:13:14",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T02:10:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T02:10:00",
+  "start_date": "2026-11-25",
+  "station": "København H",
+  "train_no": 1177,
+  "trip_id": "121120000398583364"
+ },
+ "2026-11-25|121120000398583364|Ørestad|arr": {
+  "agency": "110",
+  "alerts": [
+   "Förseningar"
+  ],
+  "canceled": false,
+  "delay_s": 0,
+  "direction": "Østerport",
+  "first_seen": "2026-11-26T01:13:14",
+  "is_realtime": false,
+  "kind": "arr",
+  "last_seen": "2026-11-26T01:13:14",
+  "max_delay_s": 0,
+  "realtime": "2026-11-26T02:02:00",
+  "route": "Ø Karlskrona - Kristianstad - Malmö - København",
+  "scheduled": "2026-11-26T02:02:00",
+  "start_date": "2026-11-25",
+  "station": "Ørestad",
+  "train_no": 1177,
+  "trip_id": "121120000398583364"
+ },
  "2026-11-25|121120000398889427|Kastrup|arr": {
   "agency": "110",
   "alerts": [],
@@ -1192687,7 +1192771,7 @@
   "first_seen": "2026-11-26T00:33:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:53:13",
+  "last_seen": "2026-11-26T01:13:14",
   "max_delay_s": 1125,
   "realtime": "2026-11-26T01:43:45",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
@@ -1192822,7 +1192906,7 @@
   "first_seen": "2026-11-26T00:33:11",
   "is_realtime": true,
   "kind": "arr",
-  "last_seen": "2026-11-26T00:53:13",
+  "last_seen": "2026-11-26T01:13:14",
   "max_delay_s": 675,
   "realtime": "2026-11-26T01:28:15",
   "route": "Ø Karlskrona - Kristianstad - Malmö - København",
