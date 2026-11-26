@@ -26,9 +26,6 @@ jobs:
           python export_delays.py
           python tools/health.py
       - name: Save data
-        run: |
-          git config user.name "delay-bot"
-          git config user.email "delay-bot@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet || git commit -m "data: $(date -u +%FT%TZ)"
-          for i in 1 2 3; do git pull --rebase -q && git push -q && break || sleep 5; done
+        env:
+          TRAFIKLAB_KEY: ${{ secrets.TRAFIKLAB_KEY }}
+        run: tools/save.sh "data" "data" "python collect.py && python export_delays.py && python tools/health.py"

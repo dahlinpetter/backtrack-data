@@ -16,10 +16,22 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 40
+      # GitHub's own schedule is a backup for the server, which starts this job at the same minutes; when GitHub's
+      # schedule runs late it can land right on a server run (26 Nov: 23 seconds apart). Skip if that just happened.
+      - name: Skip if this just ran
+        id: dedupe
+        if: github.event_name == 'schedule'
+        run: |
+          last=$(git log -1 --format=%ct --grep='^data dk:' || true); age=$(( $(date +%s) - ${last:-0} ))
+          if [ "$age" -lt 480 ]; then echo "Collected ${age}s ago, skipping."; echo "skip=1" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/setup-python@v5
+        if: steps.dedupe.outputs.skip != '1'
         with:
           python-version: "3.12"
       - name: Fetch arrivals at the Danish stations
+        if: steps.dedupe.outputs.skip != '1'
         env:
           TRAFIKLAB_KEY: ${{ secrets.TRAFIKLAB_KEY }}
           ONLY_STATIONS: "Kastrup,Ørestad,København H"
@@ -28,11 +40,9 @@ jobs:
           python collect.py
           python export_delays.py
       - name: Save data
-        run: |
-          git config user.name "delay-bot"
-          git config user.email "delay-bot@users.noreply.github.com"
-          git add data/observations data/delays.json data/stations.json
-          git diff --cached --quiet && exit 0
-          git commit -qm "data dk: $(date -u +%FT%TZ) [skip ci]"
-          # retry on a busy repo or a GitHub hiccup; "|| true" matters: under bash -e a failing rebase --abort would end the job on the first try
-          ok=; for i in 1 2 3 4; do if (git pull --rebase -q origin main && git push -q origin HEAD:main); then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 7; done; [ -n "$ok" ] || { echo "::error::push failed 4 times"; exit 1; }
+        if: steps.dedupe.outputs.skip != '1'
+        env:
+          TRAFIKLAB_KEY: ${{ secrets.TRAFIKLAB_KEY }}
+          ONLY_STATIONS: "Kastrup,Ørestad,København H"
+          ONLY_KIND: arr
+        run: tools/save.sh "data dk" "data/observations data/delays.json data/stations.json" "python collect.py && python export_delays.py"
