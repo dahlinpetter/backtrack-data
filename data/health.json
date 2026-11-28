@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-28T05:07",
- "history_updated": "2026-11-27T21:55",
- "live_updated": "2026-11-28T04:53",
+ "updated": "2026-11-28T05:27",
+ "history_updated": "2026-11-28T05:09",
+ "live_updated": "2026-11-28T05:13",
  "ok": false,
  "problems": [
   "2026-11-11: the archive is missing 63 of 541 trains Trafikverket saw (e.g. 1001, 11918, 1270, 1420, 1469)",
@@ -524,7 +524,7 @@
   },
   {
    "d": "2026-11-13",
-   "hist": 512,
+   "hist": 513,
    "live": 539,
    "any": 552,
    "state": "ok"
