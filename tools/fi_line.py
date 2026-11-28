@@ -3,7 +3,8 @@ import json, sys, urllib.request, gzip, collections
 line, day = sys.argv[1], sys.argv[2]
 r = urllib.request.urlopen(urllib.request.Request(f"https://rata.digitraffic.fi/api/v1/trains/{day}", headers={"Digitraffic-User": "backtrack-fi-check", "Accept-Encoding": "gzip"}), timeout=120)
 b = r.read(); T = json.loads(gzip.decompress(b) if r.headers.get("Content-Encoding") == "gzip" else b)
-st = json.loads(urllib.request.urlopen(urllib.request.Request("https://rata.digitraffic.fi/api/v1/metadata/stations", headers={"Digitraffic-User": "backtrack-fi-check"}), timeout=60).read())
+r2 = urllib.request.urlopen(urllib.request.Request("https://rata.digitraffic.fi/api/v1/metadata/stations", headers={"Digitraffic-User": "backtrack-fi-check", "Accept-Encoding": "gzip"}), timeout=60)
+b2 = r2.read(); st = json.loads(gzip.decompress(b2) if r2.headers.get("Content-Encoding") == "gzip" else b2)
 name = {s["stationShortCode"]: s["stationName"] for s in st}
 routes = collections.Counter()
 for t in T:
