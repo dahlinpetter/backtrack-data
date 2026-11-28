@@ -1,0 +1,12 @@
+name: Site probe (live server answers)
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          B=https://backtracknordic.com
+          for p in sw.js data/recent_extra.json data/page_history.json data/delays.json "trains?from=%C3%84lmhult&to=Malm%C3%B6%20C" "trains?from=Malm%C3%B6%20C&to=%C3%84lmhult" "trains?from=Malm%C3%B6%20C&to=K%C3%B8benhavn%20H"; do
+            code=$(curl -s -o /tmp/o -w '%{http_code} %{size_download}' "$B/$p"); echo "== $p -> $code"; head -c 300 /tmp/o; echo; done
+          curl -s $B/sw.js | grep -o 'backtrack-v[0-9]*'
