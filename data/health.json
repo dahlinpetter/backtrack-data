@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-28T15:47",
- "history_updated": "2026-11-28T05:09",
- "live_updated": "2026-11-28T15:33",
+ "updated": "2026-11-28T16:07",
+ "history_updated": "2026-11-28T16:05",
+ "live_updated": "2026-11-28T15:53",
  "ok": true,
  "problems": [],
  "cross": [
   {
    "d": "2026-11-11",
    "trafikverket": 473,
-   "archive": 469,
+   "archive": 470,
    "only_trafikverket": [
-    "1001",
     "11918",
     "1270",
     "1420",
@@ -87,182 +86,182 @@
  "days": [
   {
    "d": "2026-09-28",
-   "hist": 533,
+   "hist": 660,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-09-29",
-   "hist": 492,
+   "hist": 519,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-09-30",
-   "hist": 490,
+   "hist": 517,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-01",
-   "hist": 477,
+   "hist": 508,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-02",
-   "hist": 516,
+   "hist": 543,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-03",
-   "hist": 459,
+   "hist": 473,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-04",
-   "hist": 428,
+   "hist": 442,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-05",
-   "hist": 492,
+   "hist": 519,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-06",
-   "hist": 491,
+   "hist": 516,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-07",
-   "hist": 488,
+   "hist": 516,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-08",
-   "hist": 490,
+   "hist": 517,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-09",
-   "hist": 500,
+   "hist": 529,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-10",
-   "hist": 337,
+   "hist": 378,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-11",
-   "hist": 423,
+   "hist": 439,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-12",
-   "hist": 492,
+   "hist": 517,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-13",
-   "hist": 487,
+   "hist": 514,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-14",
-   "hist": 481,
+   "hist": 512,
    "live": 22,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-15",
-   "hist": 483,
+   "hist": 513,
    "live": 491,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-16",
-   "hist": 505,
+   "hist": 536,
    "live": 481,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-17",
-   "hist": 457,
+   "hist": 471,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-18",
-   "hist": 424,
+   "hist": 437,
    "live": 3,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-19",
-   "hist": 484,
+   "hist": 512,
    "live": 491,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-20",
-   "hist": 489,
+   "hist": 517,
    "live": 482,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-21",
-   "hist": 490,
+   "hist": 517,
    "live": 497,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-22",
-   "hist": 490,
+   "hist": 518,
    "live": 498,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-23",
-   "hist": 516,
+   "hist": 543,
    "live": 504,
    "any": 0,
    "state": "ok"
@@ -276,140 +275,140 @@
   },
   {
    "d": "2026-10-25",
-   "hist": 421,
+   "hist": 422,
    "live": 3,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-26",
-   "hist": 476,
+   "hist": 510,
    "live": 463,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-27",
-   "hist": 473,
+   "hist": 504,
    "live": 442,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-28",
-   "hist": 482,
+   "hist": 513,
    "live": 193,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-29",
-   "hist": 482,
+   "hist": 510,
    "live": 421,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-30",
-   "hist": 500,
+   "hist": 528,
    "live": 460,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-10-31",
-   "hist": 298,
+   "hist": 343,
    "live": 0,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-01",
-   "hist": 419,
+   "hist": 434,
    "live": 3,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-02",
-   "hist": 488,
+   "hist": 515,
    "live": 475,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-03",
-   "hist": 486,
+   "hist": 513,
    "live": 475,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-04",
-   "hist": 485,
+   "hist": 512,
    "live": 461,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-05",
-   "hist": 479,
+   "hist": 509,
    "live": 464,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-06",
-   "hist": 524,
+   "hist": 544,
    "live": 107,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-07",
-   "hist": 422,
+   "hist": 449,
    "live": 8,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-08",
-   "hist": 404,
+   "hist": 412,
    "live": 39,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-09",
-   "hist": 494,
+   "hist": 517,
    "live": 71,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-10",
-   "hist": 490,
+   "hist": 514,
    "live": 87,
    "any": 0,
    "state": "ok"
   },
   {
    "d": "2026-11-11",
-   "hist": 486,
+   "hist": 516,
    "live": 182,
    "any": 541,
    "state": "ok"
   },
   {
    "d": "2026-11-12",
-   "hist": 490,
+   "hist": 517,
    "live": 539,
    "any": 545,
    "state": "ok"
   },
   {
    "d": "2026-11-13",
-   "hist": 513,
+   "hist": 539,
    "live": 539,
    "any": 552,
    "state": "ok"
