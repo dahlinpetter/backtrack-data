@@ -10,7 +10,8 @@ and for evenings and weekends the live log never sees.
 Writes data/anytrip/YYYY-MM-DD.json in the same shape as delays.json:
   {"day", "updated", "stops", "trains": [{"d","n","c","s":[[stop, sched_arr, arr_delay, sched_dep, dep_delay], ...]}]}
 Times are minutes after midnight on the train's day; delays are minutes, or null when the train hasn't got there yet.
-"c" is 1 only when the train is cancelled at all our stops; a stop where only that part was cancelled carries a 6th value 2.
+"c" is 1 only when the train is cancelled at all our stops; a stop where only that part was cancelled carries a 6th value:
+2 = cancelled there both ways, 3 = the arrival there cancelled (you can't get off), 4 = the departure cancelled (can't get on).
 Trafikverket only reports Swedish stations. For trains that run to or from Denmark, Kastrup, Ørestad and København H are
 added from the usual running time to Hyllie (learned from the KoDa history), with the delay measured at Hyllie; such stops
 carry a 6th value 1 ("estimated").
@@ -85,8 +86,10 @@ def build(sig, d, rows):
         if r.get("TimeAtLocation"):
             delay = round((datetime.fromisoformat(r["TimeAtLocation"]) - adv).total_seconds() / 60)
         st = t["_s"].setdefault(sig[r["LocationSignature"]], [None, None, None, None])
-        if r.get("Canceled"):  # per stop: long trains are often cancelled on one part only (e.g. beyond Älmhult, or the bridge)
-            t.setdefault("_x", set()).add(sig[r["LocationSignature"]])
+        # per stop and per direction: long trains are often cancelled on one part only (beyond Älmhult, over the bridge),
+        # e.g. ending at Malmö C: the arrival there runs, only the departure onwards is cancelled
+        x = t.setdefault("_x", {}).setdefault(sig[r["LocationSignature"]], {})
+        x["a" if r["ActivityType"] == "Ankomst" else "d"] = bool(r.get("Canceled"))
         if r["ActivityType"] == "Ankomst":
             st[0], st[1] = mins, delay
         else:
@@ -95,15 +98,21 @@ def build(sig, d, rows):
     for t in trains.values():
         if len(t["_s"]) < 2:  # only trains that run between two of our stops
             continue
-        gone = t.get("_x", set())
-        t["c"] = 1 if gone >= set(t["_s"]) else 0  # the whole train (at our stops) cancelled
+        def flag(x):  # 2 = cancelled here both ways, 3 = can't get off here (arrival cancelled), 4 = can't get on here
+            if not x or not any(x.values()):
+                return 0
+            if all(x.values()):
+                return 2
+            return 3 if x.get("a") else 4
+        fl = {i: flag(t.get("_x", {}).get(i)) for i in t["_s"]}
+        t["c"] = 1 if all(v == 2 for v in fl.values()) else 0  # the whole train (at our stops) cancelled
         s = []
         for i, (sa, ad, sd, dd) in t["_s"].items():
             sa = sa if sa is not None else sd
             sd = sd if sd is not None else sa
             ad = ad if ad is not None else (dd if sa == sd else None)
             dd = dd if dd is not None else ad
-            s.append([i, sd, ad, sa, dd] + ([2] if i in gone and not t["c"] else []))  # stop, dep, arr delay, arr, dep delay[, 2 = cancelled at this stop]
+            s.append([i, sd, ad, sa, dd] + ([fl[i]] if fl[i] and not t["c"] else []))  # stop, dep, arr delay, arr, dep delay[, 2/3/4 cancelled here]
         h = next((x for x in s if x[0] == HYLLIE), None)
         if h and t["dk"]:
             for i, (to_dk, to_se) in DK_OFFSET.items():
@@ -111,10 +120,10 @@ def build(sig, d, rows):
                     continue
                 if t["dk"] == "to":  # leaves Hyllie for Denmark: arrival there estimated from Hyllie's departure
                     m = h[1] + to_dk
-                    s.append([i, m, h[4], m, h[4], 2 if len(h) > 5 else 1])
+                    s.append([i, m, h[4], m, h[4], 2 if len(h) > 5 and h[5] in (2, 4) else 1])
                 else:  # comes from Denmark: departure estimated from the arrival at Hyllie
                     m = h[3] - to_se
-                    s.append([i, m, None, m, None, 2 if len(h) > 5 else 1])
+                    s.append([i, m, None, m, None, 2 if len(h) > 5 and h[5] in (2, 3) else 1])
         s.sort(key=lambda x: x[1])
         out.append({"d": t["d"], "n": t["n"], "c": t["c"], "s": s, "o": t["o"]})
     out.sort(key=lambda t: t["s"][0][1])
