@@ -36,6 +36,7 @@ while d <= end:
     print(d, len(trains), flush=True)
     d += timedelta(days=1); time.sleep(1.2)
 out = [{"month": k[0], "line": k[1], **v, "share": round(100 * (v["cancelled"] + v["late10"]) / v["trains"], 1)} for k, v in sorted(m.items())]
-json.dump(out, open(f"data/fi/check_{start}_{end}.json", "w"), indent=0)
 for o in out:
-    print(o)
+    print(o, flush=True)
+import os; os.makedirs("data/fi", exist_ok=True)
+json.dump(out, open(f"data/fi/check_{start}_{end}.json", "w"), indent=0)
