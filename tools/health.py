@@ -31,7 +31,9 @@ def counts(name):
     return c, doc.get("updated")
 
 
-def numbers(name_or_path):
+def numbers(name_or_path, tunnel_only=False):
+    """Train numbers per day. tunnel_only: only trains through the City Tunnel (Triangeln/Hyllie), which leaves out SJ,
+    Snälltåget and night trains that only run Lund–Malmö C: they're not in Skånetrafiken's archive and Backtrack doesn't claim them."""
     p = name_or_path if isinstance(name_or_path, Path) else ROOT / name_or_path
     if not p.exists():
         return {}
@@ -39,7 +41,7 @@ def numbers(name_or_path):
     out = {}
     for t in doc.get("trains", []):
         sw = [x for x in t["s"] if x[0] <= 3 and len(x) < 6]  # stops Trafikverket reports itself (Lund C..Hyllie)
-        if len(sw) >= 2:
+        if len(sw) >= 2 and (not tunnel_only or any(x[0] in (2, 3) for x in sw)):
             out.setdefault(t["d"], set()).add(str(t["n"]))
     return out
 
@@ -74,13 +76,13 @@ def main():
         days.append({"d": k, "hist": h, "live": l, "any": a, "state": state})
         d += timedelta(days=1)
     # cross-check: two independent sources for the same day must agree on which trains ran
-    hist_n = numbers("history.json")
+    hist_n = numbers("history.json", tunnel_only=True)
     cross = []
     for f in sorted((ROOT / "anytrip").glob("*.json")):
         k = f.stem
         if k not in hist_n:
             continue
-        tv = numbers(f).get(k, set())
+        tv = numbers(f, tunnel_only=True).get(k, set())
         miss_hist, miss_tv = sorted(tv - hist_n[k]), sorted(hist_n[k] - tv)
         cross.append({"d": k, "trafikverket": len(tv), "archive": len(hist_n[k]), "only_trafikverket": miss_hist[:40], "only_archive": miss_tv[:40]})
         if len(miss_hist) > 0.05 * max(1, len(tv)):
