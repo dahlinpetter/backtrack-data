@@ -1,0 +1,15 @@
+name: KoDa stops probe
+on:
+  workflow_dispatch:
+    inputs:
+      day: {default: "2026-11-20"}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: sudo apt-get install -y p7zip-full >/dev/null
+      - env: {KODA_KEY: "${{ secrets.KODA_KEY }}"}
+        run: python tools/koda_stops_probe.py "${{ inputs.day }}"
