@@ -1,0 +1,1728 @@
+[
+{
+"month": "2025-12",
+"line": "A",
+"trains": 4550,
+"cancelled": 4,
+"share": 0.1
+},
+{
+"month": "2025-12",
+"line": "D",
+"trains": 40,
+"late10": 2,
+"late20": 1,
+"cancelled": 1,
+"share": 7.5
+},
+{
+"month": "2025-12",
+"line": "E",
+"trains": 1982,
+"late10": 3,
+"late20": 2,
+"cancelled": 2,
+"share": 0.3
+},
+{
+"month": "2025-12",
+"line": "G",
+"trains": 1004,
+"late10": 17,
+"late20": 7,
+"share": 1.7
+},
+{
+"month": "2025-12",
+"line": "H",
+"trains": 408,
+"cancelled": 1,
+"share": 0.2
+},
+{
+"month": "2025-12",
+"line": "I",
+"trains": 3144,
+"late10": 6,
+"cancelled": 2,
+"late20": 1,
+"share": 0.3
+},
+{
+"month": "2025-12",
+"line": "K",
+"trains": 6486,
+"cancelled": 10,
+"late10": 9,
+"share": 0.3
+},
+{
+"month": "2025-12",
+"line": "L",
+"trains": 597,
+"late10": 1,
+"late20": 1,
+"share": 0.2
+},
+{
+"month": "2025-12",
+"line": "M",
+"trains": 640,
+"late10": 7,
+"late20": 5,
+"cancelled": 8,
+"share": 2.3
+},
+{
+"month": "2025-12",
+"line": "O",
+"trains": 616,
+"share": 0.0
+},
+{
+"month": "2025-12",
+"line": "P",
+"trains": 3251,
+"cancelled": 4,
+"late10": 10,
+"late20": 3,
+"share": 0.4
+},
+{
+"month": "2025-12",
+"line": "R",
+"trains": 2485,
+"late10": 43,
+"late20": 14,
+"cancelled": 6,
+"share": 2.0
+},
+{
+"month": "2025-12",
+"line": "T",
+"trains": 131,
+"share": 0.0
+},
+{
+"month": "2025-12",
+"line": "U",
+"trains": 2013,
+"late10": 2,
+"share": 0.1
+},
+{
+"month": "2025-12",
+"line": "V",
+"trains": 311,
+"cancelled": 26,
+"late10": 37,
+"late20": 31,
+"share": 20.3
+},
+{
+"month": "2025-12",
+"line": "Y",
+"trains": 340,
+"share": 0.0
+},
+{
+"month": "2025-12",
+"line": "Z",
+"trains": 1177,
+"late10": 14,
+"late20": 5,
+"share": 1.2
+},
+{
+"month": "2026-01",
+"line": "A",
+"trains": 4682,
+"cancelled": 17,
+"late10": 2,
+"late20": 1,
+"share": 0.4
+},
+{
+"month": "2026-01",
+"line": "D",
+"trains": 40,
+"cancelled": 1,
+"late10": 1,
+"late20": 1,
+"share": 5.0
+},
+{
+"month": "2026-01",
+"line": "E",
+"trains": 1994,
+"late10": 15,
+"late20": 6,
+"cancelled": 9,
+"share": 1.2
+},
+{
+"month": "2026-01",
+"line": "G",
+"trains": 1019,
+"late10": 36,
+"late20": 7,
+"cancelled": 6,
+"share": 4.1
+},
+{
+"month": "2026-01",
+"line": "H",
+"trains": 412,
+"late10": 11,
+"late20": 5,
+"cancelled": 2,
+"share": 3.2
+},
+{
+"month": "2026-01",
+"line": "I",
+"trains": 3166,
+"late10": 30,
+"cancelled": 23,
+"late20": 1,
+"share": 1.7
+},
+{
+"month": "2026-01",
+"line": "K",
+"trains": 6543,
+"cancelled": 151,
+"late10": 52,
+"late20": 10,
+"share": 3.1
+},
+{
+"month": "2026-01",
+"line": "L",
+"trains": 623,
+"late10": 3,
+"share": 0.5
+},
+{
+"month": "2026-01",
+"line": "M",
+"trains": 640,
+"late10": 12,
+"cancelled": 14,
+"share": 4.1
+},
+{
+"month": "2026-01",
+"line": "O",
+"trains": 602,
+"late10": 3,
+"cancelled": 5,
+"share": 1.3
+},
+{
+"month": "2026-01",
+"line": "P",
+"trains": 3279,
+"cancelled": 27,
+"late10": 18,
+"late20": 5,
+"share": 1.4
+},
+{
+"month": "2026-01",
+"line": "R",
+"trains": 2516,
+"late10": 95,
+"cancelled": 17,
+"late20": 48,
+"share": 4.5
+},
+{
+"month": "2026-01",
+"line": "T",
+"trains": 137,
+"cancelled": 1,
+"late10": 4,
+"late20": 1,
+"share": 3.6
+},
+{
+"month": "2026-01",
+"line": "U",
+"trains": 2029,
+"cancelled": 6,
+"late20": 6,
+"late10": 7,
+"share": 0.6
+},
+{
+"month": "2026-01",
+"line": "V",
+"trains": 289,
+"late10": 24,
+"late20": 17,
+"cancelled": 11,
+"share": 12.1
+},
+{
+"month": "2026-01",
+"line": "Y",
+"trains": 340,
+"late10": 2,
+"share": 0.6
+},
+{
+"month": "2026-01",
+"line": "Z",
+"trains": 1189,
+"late10": 27,
+"cancelled": 6,
+"late20": 13,
+"share": 2.8
+},
+{
+"month": "2026-01",
+"line": "v",
+"trains": 1,
+"share": 0.0
+},
+{
+"month": "2026-02",
+"line": "A",
+"trains": 4364,
+"late10": 11,
+"late20": 1,
+"cancelled": 13,
+"share": 0.5
+},
+{
+"month": "2026-02",
+"line": "D",
+"trains": 40,
+"late10": 5,
+"late20": 3,
+"share": 12.5
+},
+{
+"month": "2026-02",
+"line": "E",
+"trains": 1828,
+"late10": 4,
+"cancelled": 7,
+"late20": 1,
+"share": 0.6
+},
+{
+"month": "2026-02",
+"line": "G",
+"trains": 928,
+"late10": 39,
+"late20": 14,
+"cancelled": 2,
+"share": 4.4
+},
+{
+"month": "2026-02",
+"line": "H",
+"trains": 376,
+"late10": 11,
+"late20": 2,
+"cancelled": 4,
+"share": 4.0
+},
+{
+"month": "2026-02",
+"line": "I",
+"trains": 2885,
+"late10": 27,
+"late20": 6,
+"cancelled": 16,
+"share": 1.5
+},
+{
+"month": "2026-02",
+"line": "K",
+"trains": 5960,
+"cancelled": 36,
+"late10": 31,
+"late20": 4,
+"share": 1.1
+},
+{
+"month": "2026-02",
+"line": "L",
+"trains": 528,
+"late10": 1,
+"share": 0.2
+},
+{
+"month": "2026-02",
+"line": "M",
+"trains": 640,
+"cancelled": 7,
+"late10": 5,
+"share": 1.9
+},
+{
+"month": "2026-02",
+"line": "O",
+"trains": 549,
+"cancelled": 14,
+"late20": 9,
+"late10": 25,
+"share": 7.1
+},
+{
+"month": "2026-02",
+"line": "P",
+"trains": 2989,
+"late10": 22,
+"cancelled": 10,
+"late20": 4,
+"share": 1.1
+},
+{
+"month": "2026-02",
+"line": "R",
+"trains": 2334,
+"late10": 97,
+"late20": 32,
+"cancelled": 20,
+"share": 5.0
+},
+{
+"month": "2026-02",
+"line": "T",
+"trains": 126,
+"late10": 3,
+"late20": 2,
+"share": 2.4
+},
+{
+"month": "2026-02",
+"line": "U",
+"trains": 1848,
+"late10": 8,
+"share": 0.4
+},
+{
+"month": "2026-02",
+"line": "V",
+"trains": 377,
+"late10": 46,
+"late20": 31,
+"cancelled": 53,
+"share": 26.3
+},
+{
+"month": "2026-02",
+"line": "W",
+"trains": 1,
+"late10": 1,
+"share": 100.0
+},
+{
+"month": "2026-02",
+"line": "Y",
+"trains": 340,
+"share": 0.0
+},
+{
+"month": "2026-02",
+"line": "Z",
+"trains": 1072,
+"late10": 29,
+"late20": 13,
+"cancelled": 9,
+"share": 3.5
+},
+{
+"month": "2026-03",
+"line": "A",
+"trains": 4794,
+"late10": 10,
+"cancelled": 14,
+"late20": 6,
+"share": 0.5
+},
+{
+"month": "2026-03",
+"line": "D",
+"trains": 44,
+"late10": 1,
+"late20": 1,
+"share": 2.3
+},
+{
+"month": "2026-03",
+"line": "E",
+"trains": 2020,
+"late10": 7,
+"late20": 3,
+"cancelled": 8,
+"share": 0.7
+},
+{
+"month": "2026-03",
+"line": "G",
+"trains": 1025,
+"late10": 4,
+"cancelled": 1,
+"share": 0.5
+},
+{
+"month": "2026-03",
+"line": "H",
+"trains": 416,
+"late10": 4,
+"late20": 1,
+"cancelled": 1,
+"share": 1.2
+},
+{
+"month": "2026-03",
+"line": "I",
+"trains": 3186,
+"late10": 19,
+"cancelled": 5,
+"late20": 6,
+"share": 0.8
+},
+{
+"month": "2026-03",
+"line": "K",
+"trains": 6591,
+"cancelled": 86,
+"late10": 32,
+"late20": 3,
+"share": 1.8
+},
+{
+"month": "2026-03",
+"line": "L",
+"trains": 588,
+"late10": 1,
+"share": 0.2
+},
+{
+"month": "2026-03",
+"line": "M",
+"trains": 704,
+"late10": 3,
+"late20": 1,
+"cancelled": 4,
+"share": 1.0
+},
+{
+"month": "2026-03",
+"line": "O",
+"trains": 605,
+"late10": 1,
+"share": 0.2
+},
+{
+"month": "2026-03",
+"line": "P",
+"trains": 3307,
+"late10": 22,
+"cancelled": 4,
+"late20": 4,
+"share": 0.8
+},
+{
+"month": "2026-03",
+"line": "R",
+"trains": 2568,
+"late10": 63,
+"cancelled": 3,
+"late20": 19,
+"share": 2.6
+},
+{
+"month": "2026-03",
+"line": "T",
+"trains": 171,
+"late10": 3,
+"late20": 1,
+"share": 1.8
+},
+{
+"month": "2026-03",
+"line": "U",
+"trains": 2043,
+"late10": 8,
+"late20": 5,
+"cancelled": 4,
+"share": 0.6
+},
+{
+"month": "2026-03",
+"line": "V",
+"trains": 468,
+"late10": 68,
+"cancelled": 72,
+"late20": 51,
+"share": 29.9
+},
+{
+"month": "2026-03",
+"line": "Y",
+"trains": 374,
+"late10": 3,
+"late20": 2,
+"share": 0.8
+},
+{
+"month": "2026-03",
+"line": "Z",
+"trains": 1188,
+"late10": 15,
+"late20": 9,
+"cancelled": 10,
+"share": 2.1
+},
+{
+"month": "2026-04",
+"line": "A",
+"trains": 4532,
+"cancelled": 12,
+"share": 0.3
+},
+{
+"month": "2026-04",
+"line": "D",
+"trains": 40,
+"late10": 4,
+"late20": 3,
+"share": 10.0
+},
+{
+"month": "2026-04",
+"line": "E",
+"trains": 1936,
+"cancelled": 1,
+"share": 0.1
+},
+{
+"month": "2026-04",
+"line": "G",
+"trains": 986,
+"late10": 12,
+"late20": 1,
+"share": 1.2
+},
+{
+"month": "2026-04",
+"line": "H",
+"trains": 400,
+"late10": 7,
+"late20": 2,
+"share": 1.8
+},
+{
+"month": "2026-04",
+"line": "I",
+"trains": 3074,
+"cancelled": 3,
+"late10": 3,
+"late20": 1,
+"share": 0.2
+},
+{
+"month": "2026-04",
+"line": "K",
+"trains": 6341,
+"late10": 12,
+"cancelled": 38,
+"late20": 1,
+"share": 0.8
+},
+{
+"month": "2026-04",
+"line": "L",
+"trains": 585,
+"late10": 8,
+"late20": 2,
+"cancelled": 1,
+"share": 1.5
+},
+{
+"month": "2026-04",
+"line": "M",
+"trains": 640,
+"late10": 5,
+"cancelled": 4,
+"late20": 1,
+"share": 1.4
+},
+{
+"month": "2026-04",
+"line": "O",
+"trains": 582,
+"cancelled": 1,
+"share": 0.2
+},
+{
+"month": "2026-04",
+"line": "P",
+"trains": 3182,
+"late10": 6,
+"cancelled": 3,
+"late20": 2,
+"share": 0.3
+},
+{
+"month": "2026-04",
+"line": "R",
+"trains": 2459,
+"late10": 54,
+"cancelled": 9,
+"late20": 25,
+"share": 2.6
+},
+{
+"month": "2026-04",
+"line": "T",
+"trains": 168,
+"share": 0.0
+},
+{
+"month": "2026-04",
+"line": "U",
+"trains": 1975,
+"late10": 5,
+"late20": 4,
+"cancelled": 3,
+"share": 0.4
+},
+{
+"month": "2026-04",
+"line": "V",
+"trains": 357,
+"late10": 38,
+"late20": 21,
+"cancelled": 37,
+"share": 21.0
+},
+{
+"month": "2026-04",
+"line": "Y",
+"trains": 340,
+"cancelled": 1,
+"late20": 1,
+"share": 0.3
+},
+{
+"month": "2026-04",
+"line": "Z",
+"trains": 1150,
+"late10": 10,
+"late20": 5,
+"cancelled": 2,
+"share": 1.0
+},
+{
+"month": "2026-05",
+"line": "A",
+"trains": 4995,
+"cancelled": 2,
+"late10": 1,
+"share": 0.1
+},
+{
+"month": "2026-05",
+"line": "D",
+"trains": 38,
+"late10": 4,
+"share": 10.5
+},
+{
+"month": "2026-05",
+"line": "E",
+"trains": 1762,
+"late10": 7,
+"share": 0.4
+},
+{
+"month": "2026-05",
+"line": "G",
+"trains": 942,
+"late10": 13,
+"late20": 3,
+"cancelled": 1,
+"share": 1.5
+},
+{
+"month": "2026-05",
+"line": "H",
+"trains": 410,
+"late10": 4,
+"cancelled": 2,
+"share": 1.5
+},
+{
+"month": "2026-05",
+"line": "I",
+"trains": 3151,
+"cancelled": 2,
+"late10": 6,
+"late20": 2,
+"share": 0.3
+},
+{
+"month": "2026-05",
+"line": "K",
+"trains": 6516,
+"late10": 9,
+"cancelled": 2,
+"late20": 3,
+"share": 0.2
+},
+{
+"month": "2026-05",
+"line": "L",
+"trains": 543,
+"late10": 5,
+"share": 0.9
+},
+{
+"month": "2026-05",
+"line": "M",
+"trains": 613,
+"cancelled": 6,
+"late20": 4,
+"late10": 5,
+"share": 1.8
+},
+{
+"month": "2026-05",
+"line": "O",
+"trains": 581,
+"late10": 1,
+"share": 0.2
+},
+{
+"month": "2026-05",
+"line": "P",
+"trains": 3263,
+"late10": 17,
+"cancelled": 4,
+"late20": 1,
+"share": 0.6
+},
+{
+"month": "2026-05",
+"line": "R",
+"trains": 2537,
+"late10": 57,
+"cancelled": 4,
+"late20": 9,
+"share": 2.4
+},
+{
+"month": "2026-05",
+"line": "T",
+"trains": 173,
+"late10": 3,
+"share": 1.7
+},
+{
+"month": "2026-05",
+"line": "U",
+"trains": 1783,
+"late10": 6,
+"share": 0.3
+},
+{
+"month": "2026-05",
+"line": "V",
+"trains": 383,
+"late10": 29,
+"late20": 8,
+"cancelled": 16,
+"share": 11.7
+},
+{
+"month": "2026-05",
+"line": "Y",
+"trains": 323,
+"cancelled": 4,
+"late10": 1,
+"share": 1.5
+},
+{
+"month": "2026-05",
+"line": "Z",
+"trains": 1190,
+"late10": 10,
+"late20": 4,
+"cancelled": 1,
+"share": 0.9
+},
+{
+"month": "2026-06",
+"line": "E",
+"trains": 1441,
+"late10": 10,
+"cancelled": 7,
+"late20": 2,
+"share": 1.2
+},
+{
+"month": "2026-06",
+"line": "G",
+"trains": 991,
+"late10": 25,
+"late20": 8,
+"cancelled": 6,
+"share": 3.1
+},
+{
+"month": "2026-06",
+"line": "H",
+"trains": 402,
+"late10": 13,
+"late20": 4,
+"share": 3.2
+},
+{
+"month": "2026-06",
+"line": "I",
+"trains": 1848,
+"cancelled": 2,
+"late10": 5,
+"late20": 2,
+"share": 0.4
+},
+{
+"month": "2026-06",
+"line": "K",
+"trains": 3688,
+"late10": 29,
+"late20": 5,
+"cancelled": 7,
+"share": 1.0
+},
+{
+"month": "2026-06",
+"line": "L",
+"trains": 4,
+"share": 0.0
+},
+{
+"month": "2026-06",
+"line": "M",
+"trains": 672,
+"late10": 7,
+"cancelled": 5,
+"late20": 1,
+"share": 1.8
+},
+{
+"month": "2026-06",
+"line": "O",
+"trains": 591,
+"late10": 4,
+"late20": 1,
+"share": 0.7
+},
+{
+"month": "2026-06",
+"line": "P",
+"trains": 1859,
+"late10": 10,
+"cancelled": 2,
+"late20": 1,
+"share": 0.6
+},
+{
+"month": "2026-06",
+"line": "R",
+"trains": 2448,
+"late10": 130,
+"late20": 58,
+"cancelled": 28,
+"share": 6.5
+},
+{
+"month": "2026-06",
+"line": "T",
+"trains": 139,
+"cancelled": 2,
+"share": 1.4
+},
+{
+"month": "2026-06",
+"line": "U",
+"trains": 1778,
+"late10": 18,
+"late20": 9,
+"share": 1.0
+},
+{
+"month": "2026-06",
+"line": "V",
+"trains": 474,
+"cancelled": 52,
+"late10": 35,
+"late20": 22,
+"share": 18.4
+},
+{
+"month": "2026-06",
+"line": "X",
+"trains": 1423,
+"cancelled": 13,
+"late10": 10,
+"late20": 2,
+"share": 1.6
+},
+{
+"month": "2026-06",
+"line": "Y",
+"trains": 238,
+"late10": 6,
+"late20": 5,
+"cancelled": 1,
+"share": 2.9
+},
+{
+"month": "2026-06",
+"line": "Z",
+"trains": 1151,
+"late10": 24,
+"late20": 10,
+"share": 2.1
+},
+{
+"month": "2026-07",
+"line": "E",
+"trains": 349,
+"late10": 1,
+"share": 0.3
+},
+{
+"month": "2026-07",
+"line": "G",
+"trains": 1030,
+"late10": 21,
+"late20": 5,
+"cancelled": 5,
+"share": 2.5
+},
+{
+"month": "2026-07",
+"line": "H",
+"trains": 420,
+"late10": 12,
+"late20": 6,
+"cancelled": 4,
+"share": 3.8
+},
+{
+"month": "2026-07",
+"line": "I",
+"trains": 1914,
+"late10": 8,
+"late20": 3,
+"cancelled": 9,
+"share": 0.9
+},
+{
+"month": "2026-07",
+"line": "K",
+"trains": 3813,
+"late10": 17,
+"late20": 5,
+"cancelled": 6,
+"share": 0.6
+},
+{
+"month": "2026-07",
+"line": "M",
+"trains": 736,
+"late10": 7,
+"late20": 4,
+"cancelled": 6,
+"share": 1.8
+},
+{
+"month": "2026-07",
+"line": "O",
+"trains": 624,
+"cancelled": 3,
+"late10": 10,
+"late20": 4,
+"share": 2.1
+},
+{
+"month": "2026-07",
+"line": "P",
+"trains": 1922,
+"late10": 15,
+"cancelled": 6,
+"late20": 5,
+"share": 1.1
+},
+{
+"month": "2026-07",
+"line": "R",
+"trains": 2523,
+"late10": 87,
+"cancelled": 9,
+"late20": 28,
+"share": 3.8
+},
+{
+"month": "2026-07",
+"line": "T",
+"trains": 125,
+"late10": 1,
+"share": 0.8
+},
+{
+"month": "2026-07",
+"line": "U",
+"trains": 373,
+"cancelled": 1,
+"late10": 3,
+"share": 1.1
+},
+{
+"month": "2026-07",
+"line": "V",
+"trains": 421,
+"late10": 31,
+"late20": 18,
+"cancelled": 18,
+"share": 11.6
+},
+{
+"month": "2026-07",
+"line": "W",
+"trains": 1,
+"share": 0.0
+},
+{
+"month": "2026-07",
+"line": "X",
+"trains": 4171,
+"late10": 6,
+"late20": 1,
+"share": 0.1
+},
+{
+"month": "2026-07",
+"line": "Y",
+"trains": 85,
+"late10": 1,
+"share": 1.2
+},
+{
+"month": "2026-07",
+"line": "Z",
+"trains": 1186,
+"late10": 12,
+"cancelled": 4,
+"late20": 1,
+"share": 1.3
+},
+{
+"month": "2026-08",
+"line": "A",
+"trains": 3446,
+"cancelled": 10,
+"late10": 7,
+"late20": 1,
+"share": 0.5
+},
+{
+"month": "2026-08",
+"line": "D",
+"trains": 32,
+"late10": 1,
+"late20": 1,
+"share": 3.1
+},
+{
+"month": "2026-08",
+"line": "E",
+"trains": 2053,
+"late10": 19,
+"cancelled": 16,
+"late20": 11,
+"share": 1.7
+},
+{
+"month": "2026-08",
+"line": "G",
+"trains": 1024,
+"late10": 7,
+"late20": 1,
+"share": 0.7
+},
+{
+"month": "2026-08",
+"line": "H",
+"trains": 453,
+"late10": 12,
+"late20": 5,
+"cancelled": 4,
+"share": 3.5
+},
+{
+"month": "2026-08",
+"line": "I",
+"trains": 2810,
+"late10": 21,
+"late20": 6,
+"cancelled": 7,
+"share": 1.0
+},
+{
+"month": "2026-08",
+"line": "K",
+"trains": 5799,
+"late10": 37,
+"cancelled": 26,
+"late20": 9,
+"share": 1.1
+},
+{
+"month": "2026-08",
+"line": "L",
+"trains": 404,
+"late10": 6,
+"late20": 1,
+"share": 1.5
+},
+{
+"month": "2026-08",
+"line": "M",
+"trains": 677,
+"late10": 2,
+"cancelled": 2,
+"share": 0.6
+},
+{
+"month": "2026-08",
+"line": "O",
+"trains": 605,
+"late10": 4,
+"late20": 1,
+"cancelled": 6,
+"share": 1.7
+},
+{
+"month": "2026-08",
+"line": "P",
+"trains": 2909,
+"late10": 27,
+"late20": 4,
+"cancelled": 5,
+"share": 1.1
+},
+{
+"month": "2026-08",
+"line": "R",
+"trains": 2559,
+"late10": 84,
+"late20": 30,
+"cancelled": 11,
+"share": 3.7
+},
+{
+"month": "2026-08",
+"line": "T",
+"trains": 155,
+"late10": 3,
+"late20": 1,
+"share": 1.9
+},
+{
+"month": "2026-08",
+"line": "U",
+"trains": 2198,
+"late10": 26,
+"late20": 17,
+"cancelled": 2,
+"share": 1.3
+},
+{
+"month": "2026-08",
+"line": "V",
+"trains": 454,
+"cancelled": 47,
+"late10": 25,
+"late20": 15,
+"share": 15.9
+},
+{
+"month": "2026-08",
+"line": "X",
+"trains": 40,
+"late10": 1,
+"share": 2.5
+},
+{
+"month": "2026-08",
+"line": "Y",
+"trains": 309,
+"late10": 6,
+"late20": 1,
+"share": 1.9
+},
+{
+"month": "2026-08",
+"line": "Z",
+"trains": 1188,
+"late10": 15,
+"late20": 12,
+"cancelled": 2,
+"share": 1.4
+},
+{
+"month": "2026-09",
+"line": "A",
+"trains": 5230,
+"late10": 8,
+"late20": 6,
+"cancelled": 21,
+"share": 0.6
+},
+{
+"month": "2026-09",
+"line": "D",
+"trains": 44,
+"late10": 2,
+"share": 4.5
+},
+{
+"month": "2026-09",
+"line": "E",
+"trains": 1634,
+"late10": 11,
+"late20": 4,
+"cancelled": 42,
+"share": 3.2
+},
+{
+"month": "2026-09",
+"line": "G",
+"trains": 996,
+"late10": 13,
+"cancelled": 1,
+"late20": 2,
+"share": 1.4
+},
+{
+"month": "2026-09",
+"line": "H",
+"trains": 456,
+"cancelled": 6,
+"late10": 8,
+"late20": 1,
+"share": 3.1
+},
+{
+"month": "2026-09",
+"line": "I",
+"trains": 3124,
+"late10": 11,
+"cancelled": 20,
+"late20": 3,
+"share": 1.0
+},
+{
+"month": "2026-09",
+"line": "K",
+"trains": 6400,
+"cancelled": 19,
+"late10": 11,
+"late20": 8,
+"share": 0.5
+},
+{
+"month": "2026-09",
+"line": "L",
+"trains": 391,
+"late10": 4,
+"late20": 1,
+"share": 1.0
+},
+{
+"month": "2026-09",
+"line": "M",
+"trains": 704,
+"late10": 1,
+"share": 0.1
+},
+{
+"month": "2026-09",
+"line": "O",
+"trains": 573,
+"late10": 3,
+"late20": 1,
+"share": 0.5
+},
+{
+"month": "2026-09",
+"line": "P",
+"trains": 3232,
+"late10": 10,
+"cancelled": 21,
+"late20": 2,
+"share": 1.0
+},
+{
+"month": "2026-09",
+"line": "R",
+"trains": 2494,
+"late10": 91,
+"late20": 22,
+"share": 3.6
+},
+{
+"month": "2026-09",
+"line": "T",
+"trains": 154,
+"late10": 3,
+"late20": 2,
+"share": 1.9
+},
+{
+"month": "2026-09",
+"line": "U",
+"trains": 1629,
+"cancelled": 33,
+"late20": 8,
+"late10": 21,
+"share": 3.3
+},
+{
+"month": "2026-09",
+"line": "V",
+"trains": 502,
+"late10": 34,
+"late20": 18,
+"cancelled": 59,
+"share": 18.5
+},
+{
+"month": "2026-09",
+"line": "Y",
+"trains": 308,
+"late10": 5,
+"late20": 3,
+"cancelled": 4,
+"share": 2.9
+},
+{
+"month": "2026-09",
+"line": "Z",
+"trains": 1148,
+"late10": 11,
+"cancelled": 1,
+"late20": 4,
+"share": 1.0
+},
+{
+"month": "2026-10",
+"line": "A",
+"trains": 5007,
+"late10": 3,
+"cancelled": 2,
+"share": 0.1
+},
+{
+"month": "2026-10",
+"line": "D",
+"trains": 29,
+"late10": 1,
+"late20": 1,
+"share": 3.4
+},
+{
+"month": "2026-10",
+"line": "E",
+"trains": 1911,
+"late10": 3,
+"share": 0.2
+},
+{
+"month": "2026-10",
+"line": "G",
+"trains": 1029,
+"late10": 7,
+"late20": 2,
+"share": 0.7
+},
+{
+"month": "2026-10",
+"line": "H",
+"trains": 467,
+"late10": 2,
+"late20": 1,
+"cancelled": 2,
+"share": 0.9
+},
+{
+"month": "2026-10",
+"line": "I",
+"trains": 3219,
+"late10": 3,
+"cancelled": 5,
+"share": 0.2
+},
+{
+"month": "2026-10",
+"line": "K",
+"trains": 4618,
+"cancelled": 9,
+"late10": 9,
+"late20": 2,
+"share": 0.4
+},
+{
+"month": "2026-10",
+"line": "L",
+"trains": 538,
+"late10": 1,
+"share": 0.2
+},
+{
+"month": "2026-10",
+"line": "M",
+"trains": 697,
+"late10": 11,
+"late20": 3,
+"cancelled": 6,
+"share": 2.4
+},
+{
+"month": "2026-10",
+"line": "O",
+"trains": 608,
+"cancelled": 1,
+"late10": 2,
+"late20": 1,
+"share": 0.5
+},
+{
+"month": "2026-10",
+"line": "P",
+"trains": 3314,
+"cancelled": 4,
+"late10": 6,
+"late20": 1,
+"share": 0.3
+},
+{
+"month": "2026-10",
+"line": "R",
+"trains": 2584,
+"late10": 205,
+"late20": 46,
+"cancelled": 5,
+"share": 8.1
+},
+{
+"month": "2026-10",
+"line": "T",
+"trains": 171,
+"cancelled": 1,
+"late10": 1,
+"late20": 1,
+"share": 1.2
+},
+{
+"month": "2026-10",
+"line": "U",
+"trains": 1925,
+"cancelled": 2,
+"late10": 4,
+"share": 0.3
+},
+{
+"month": "2026-10",
+"line": "V",
+"trains": 463,
+"cancelled": 73,
+"late10": 45,
+"late20": 34,
+"share": 25.5
+},
+{
+"month": "2026-10",
+"line": "W",
+"trains": 1,
+"share": 0.0
+},
+{
+"month": "2026-10",
+"line": "Y",
+"trains": 308,
+"share": 0.0
+},
+{
+"month": "2026-10",
+"line": "Z",
+"trains": 1187,
+"late10": 13,
+"late20": 3,
+"cancelled": 1,
+"share": 1.2
+},
+{
+"month": "2026-11",
+"line": "A",
+"trains": 4218,
+"cancelled": 5,
+"late10": 2,
+"late20": 1,
+"share": 0.2
+},
+{
+"month": "2026-11",
+"line": "D",
+"trains": 40,
+"late10": 3,
+"late20": 1,
+"cancelled": 1,
+"share": 10.0
+},
+{
+"month": "2026-11",
+"line": "E",
+"trains": 1768,
+"late10": 3,
+"late20": 2,
+"cancelled": 4,
+"share": 0.4
+},
+{
+"month": "2026-11",
+"line": "G",
+"trains": 895,
+"late10": 8,
+"cancelled": 3,
+"share": 1.2
+},
+{
+"month": "2026-11",
+"line": "H",
+"trains": 411,
+"late10": 5,
+"late20": 1,
+"share": 1.2
+},
+{
+"month": "2026-11",
+"line": "I",
+"trains": 2817,
+"late10": 18,
+"late20": 10,
+"cancelled": 4,
+"share": 0.8
+},
+{
+"month": "2026-11",
+"line": "K",
+"trains": 5764,
+"cancelled": 13,
+"late10": 32,
+"late20": 16,
+"share": 0.8
+},
+{
+"month": "2026-11",
+"line": "L",
+"trains": 497,
+"late10": 1,
+"late20": 1,
+"share": 0.2
+},
+{
+"month": "2026-11",
+"line": "M",
+"trains": 645,
+"cancelled": 6,
+"late10": 7,
+"late20": 1,
+"share": 2.0
+},
+{
+"month": "2026-11",
+"line": "O",
+"trains": 528,
+"cancelled": 2,
+"share": 0.4
+},
+{
+"month": "2026-11",
+"line": "P",
+"trains": 2891,
+"late10": 18,
+"late20": 7,
+"cancelled": 5,
+"share": 0.8
+},
+{
+"month": "2026-11",
+"line": "R",
+"trains": 2282,
+"late10": 77,
+"late20": 36,
+"cancelled": 22,
+"share": 4.3
+},
+{
+"month": "2026-11",
+"line": "T",
+"trains": 147,
+"late10": 1,
+"share": 0.7
+},
+{
+"month": "2026-11",
+"line": "U",
+"trains": 1794,
+"late10": 4,
+"late20": 2,
+"cancelled": 4,
+"share": 0.4
+},
+{
+"month": "2026-11",
+"line": "V",
+"trains": 386,
+"cancelled": 32,
+"late10": 18,
+"late20": 8,
+"share": 13.0
+},
+{
+"month": "2026-11",
+"line": "W",
+"trains": 2,
+"late10": 1,
+"share": 50.0
+},
+{
+"month": "2026-11",
+"line": "Y",
+"trains": 280,
+"late10": 2,
+"cancelled": 2,
+"share": 1.4
+},
+{
+"month": "2026-11",
+"line": "Z",
+"trains": 1033,
+"cancelled": 4,
+"late10": 24,
+"late20": 18,
+"share": 2.7
+}
+]
