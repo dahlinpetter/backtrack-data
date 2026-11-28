@@ -40,7 +40,7 @@ def numbers(name_or_path, tunnel_only=False):
     doc = json.loads(p.read_text())
     out = {}
     for t in doc.get("trains", []):
-        sw = [x for x in t["s"] if x[0] <= 3 and len(x) < 6]  # stops Trafikverket reports itself (Lund C..Hyllie)
+        sw = [x for x in t["s"] if x[0] <= 3 and (len(x) < 6 or x[5] == 2)]  # stops Trafikverket reports itself (Lund C..Hyllie)
         if len(sw) >= 2 and (not tunnel_only or any(x[0] in (2, 3) for x in sw)):
             out.setdefault(t["d"], set()).add(str(t["n"]))
     return out

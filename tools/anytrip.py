@@ -10,6 +10,7 @@ and for evenings and weekends the live log never sees.
 Writes data/anytrip/YYYY-MM-DD.json in the same shape as delays.json:
   {"day", "updated", "stops", "trains": [{"d","n","c","s":[[stop, sched_arr, arr_delay, sched_dep, dep_delay], ...]}]}
 Times are minutes after midnight on the train's day; delays are minutes, or null when the train hasn't got there yet.
+"c" is 1 only when the train is cancelled at all our stops; a stop where only that part was cancelled carries a 6th value 2.
 Trafikverket only reports Swedish stations. For trains that run to or from Denmark, Kastrup, Ørestad and København H are
 added from the usual running time to Hyllie (learned from the KoDa history), with the delay measured at Hyllie; such stops
 carry a 6th value 1 ("estimated").
@@ -83,9 +84,9 @@ def build(sig, d, rows):
         delay = None
         if r.get("TimeAtLocation"):
             delay = round((datetime.fromisoformat(r["TimeAtLocation"]) - adv).total_seconds() / 60)
-        if r.get("Canceled"):
-            t["c"] = 1
         st = t["_s"].setdefault(sig[r["LocationSignature"]], [None, None, None, None])
+        if r.get("Canceled"):  # per stop: long trains are often cancelled on one part only (e.g. beyond Älmhult, or the bridge)
+            t.setdefault("_x", set()).add(sig[r["LocationSignature"]])
         if r["ActivityType"] == "Ankomst":
             st[0], st[1] = mins, delay
         else:
@@ -94,13 +95,15 @@ def build(sig, d, rows):
     for t in trains.values():
         if len(t["_s"]) < 2:  # only trains that run between two of our stops
             continue
+        gone = t.get("_x", set())
+        t["c"] = 1 if gone >= set(t["_s"]) else 0  # the whole train (at our stops) cancelled
         s = []
         for i, (sa, ad, sd, dd) in t["_s"].items():
             sa = sa if sa is not None else sd
             sd = sd if sd is not None else sa
             ad = ad if ad is not None else (dd if sa == sd else None)
             dd = dd if dd is not None else ad
-            s.append([i, sd, ad, sa, dd])  # same order as delays.json: stop, dep, arr delay, arr, dep delay
+            s.append([i, sd, ad, sa, dd] + ([2] if i in gone and not t["c"] else []))  # stop, dep, arr delay, arr, dep delay[, 2 = cancelled at this stop]
         h = next((x for x in s if x[0] == HYLLIE), None)
         if h and t["dk"]:
             for i, (to_dk, to_se) in DK_OFFSET.items():
@@ -108,10 +111,10 @@ def build(sig, d, rows):
                     continue
                 if t["dk"] == "to":  # leaves Hyllie for Denmark: arrival there estimated from Hyllie's departure
                     m = h[1] + to_dk
-                    s.append([i, m, h[4], m, h[4], 1])
+                    s.append([i, m, h[4], m, h[4], 2 if len(h) > 5 else 1])
                 else:  # comes from Denmark: departure estimated from the arrival at Hyllie
                     m = h[3] - to_se
-                    s.append([i, m, None, m, None, 1])
+                    s.append([i, m, None, m, None, 2 if len(h) > 5 else 1])
         s.sort(key=lambda x: x[1])
         out.append({"d": t["d"], "n": t["n"], "c": t["c"], "s": s, "o": t["o"]})
     out.sort(key=lambda t: t["s"][0][1])
@@ -135,7 +138,7 @@ def real_dk(trains, day):
             continue
         real = {STOPS.index(names[x[0]]): x for x in lt["s"] if names[x[0]] in STOPS}
         for k, x in enumerate(t["s"]):
-            if len(x) > 5 and x[0] in real:
+            if len(x) > 5 and x[5] == 1 and x[0] in real:
                 r = real[x[0]]
                 if r[2] is None and r[4] is None:
                     continue
