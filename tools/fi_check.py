@@ -31,11 +31,14 @@ while d <= end:
             m[k]["cancelled"] += 1
         elif (last.get("differenceInMinutes") or 0) > 10:
             m[k]["late10"] += 1
+        if not t.get("cancelled") and not last.get("cancelled") and max((x.get("differenceInMinutes") or 0) for x in rows) > 10:
+            m[k]["late10any"] += 1  # stricter reading: more than 10 min late at any station on the way
         if not t.get("cancelled") and (last.get("differenceInMinutes") or 0) >= 20:
             m[k]["late20"] += 1
     print(d, len(trains), flush=True)
     d += timedelta(days=1); time.sleep(1.2)
-out = [{"month": k[0], "line": k[1], **v, "share": round(100 * (v["cancelled"] + v["late10"]) / v["trains"], 1)} for k, v in sorted(m.items())]
+out = [{"month": k[0], "line": k[1], **v, "share": round(100 * (v["cancelled"] + v["late10"]) / v["trains"], 1),
+        "share_any": round(100 * (v["cancelled"] + v["late10any"]) / v["trains"], 1)} for k, v in sorted(m.items())]
 for o in out:
     print(o, flush=True)
 import os; os.makedirs("data/fi", exist_ok=True)
