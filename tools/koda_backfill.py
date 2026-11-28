@@ -28,6 +28,12 @@ STATIONS = {
     "Kastrup": ["kastrup", "københavns lufthavn", "köpenhamns lufthavn", "cph airport"],
     "Ørestad": ["örestad", "ørestad"],
     "København H": ["köpenhamn h", "københavn h", "kobenhavn h", "köpenhamn central", "københavn central"],
+    # the Malmö–Älmhult line (added Nov 2026), after the Öresund stops so older files keep their indexes
+    "Eslöv": ["eslöv station"],
+    "Höör": ["höör station"],
+    "Hässleholm C": ["hässleholm c", "hässleholm central", "hässleholm centralstation"],
+    "Osby": ["osby station"],
+    "Älmhult": ["älmhult station"],
 }
 ORDER = list(STATIONS)
 

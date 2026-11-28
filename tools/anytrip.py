@@ -5,6 +5,7 @@ and for evenings and weekends the live log never sees.
 
     TRAFIKVERKET_KEY=... python tools/anytrip.py            # today and yesterday (Swedish time)
     TRAFIKVERKET_KEY=... python tools/anytrip.py 70         # backfill: the last 70 days, skipping days already saved
+    FORCE=1 ... python tools/anytrip.py 25                   # re-fetch saved days too (e.g. after adding stops)
 
 Writes data/anytrip/YYYY-MM-DD.json in the same shape as delays.json:
   {"day", "updated", "stops", "trains": [{"d","n","c","s":[[stop, sched_arr, arr_delay, sched_dep, dep_delay], ...]}]}
@@ -14,7 +15,7 @@ added from the usual running time to Hyllie (learned from the KoDa history), wit
 carry a 6th value 1 ("estimated").
 Files older than KEEP_DAYS are deleted.
 """
-import json, sys
+import json, os, sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -22,10 +23,13 @@ sys.path.insert(0, str(Path(__file__).parent))
 from trv_route import ask
 
 TZ = ZoneInfo("Europe/Stockholm")
-STOPS = ["Lund C", "Malmö C", "Triangeln", "Hyllie", "Kastrup", "Ørestad", "København H"]  # same order as delays.json
+STOPS = ["Lund C", "Malmö C", "Triangeln", "Hyllie", "Kastrup", "Ørestad", "København H",  # same order as delays.json
+         "Eslöv", "Höör", "Hässleholm C", "Osby", "Älmhult"]  # Malmö–Älmhult line, appended so older indexes stay valid
+LINE = set(range(7, len(STOPS)))  # stops beyond the Öresund stretch: the live log (delays.json) doesn't collect these
 NAMES = {"Lund C": ["Lund C", "Lund"], "Malmö C": ["Malmö C", "Malmö"], "Triangeln": ["Triangeln", "Malmö Triangeln"],
          "Hyllie": ["Hyllie"], "Kastrup": ["Kastrup", "Københavns Lufthavn", "Kastrup lufthavn"], "Ørestad": ["Ørestad"],
-         "København H": ["København H", "Köpenhamn H", "København"]}
+         "København H": ["København H", "Köpenhamn H", "København"],
+         "Eslöv": ["Eslöv"], "Höör": ["Höör"], "Hässleholm C": ["Hässleholm C", "Hässleholm"], "Osby": ["Osby"], "Älmhult": ["Älmhult"]}
 KEEP_DAYS = 75
 HYLLIE = STOPS.index("Hyllie")
 # minutes between Hyllie and each Danish stop: (towards Denmark, towards Sweden), median from the KoDa history
@@ -55,7 +59,7 @@ def fetch(sig, d):
     n = d + timedelta(days=1)
     locs = "".join(f'<EQ name="LocationSignature" value="{s}"/>' for s in sig)
     inc = "".join(f"<INCLUDE>{f}</INCLUDE>" for f in ["AdvertisedTrainIdent", "AdvertisedTimeAtLocation", "TimeAtLocation", "Canceled",
-                                                          "ActivityType", "LocationSignature", "ScheduledDepartureDateTime", "FromLocation", "ToLocation"])
+                                                          "ActivityType", "LocationSignature", "ScheduledDepartureDateTime", "FromLocation", "ToLocation", "InformationOwner"])
     q = (f'<QUERY objecttype="TrainAnnouncement" schemaversion="1.9" limit="20000"><FILTER><AND><OR>{locs}</OR>'
          f'<EQ name="Advertised" value="true"/><GTE name="AdvertisedTimeAtLocation" value="{d}T00:00:00"/>'
          f'<LT name="AdvertisedTimeAtLocation" value="{n}T00:00:00"/></AND></FILTER>{inc}</QUERY>')
@@ -66,7 +70,9 @@ def build(sig, d, rows):
     trains = {}
     for r in rows:
         day = (r.get("ScheduledDepartureDateTime") or r["AdvertisedTimeAtLocation"])[:10]
-        t = trains.setdefault((day, r["AdvertisedTrainIdent"]), {"d": day, "n": r["AdvertisedTrainIdent"], "c": 0, "_s": {}, "dk": None})
+        t = trains.setdefault((day, r["AdvertisedTrainIdent"]), {"d": day, "n": r["AdvertisedTrainIdent"], "c": 0, "_s": {}, "dk": None, "o": ""})
+        if r.get("InformationOwner"):
+            t["o"] = r["InformationOwner"].strip()
         locs = lambda k: [x.get("LocationName", "") for x in r.get(k, [])]
         if any(x.startswith("Dk.") for x in locs("ToLocation")):
             t["dk"] = "to"
@@ -107,7 +113,7 @@ def build(sig, d, rows):
                     m = h[3] - to_se
                     s.append([i, m, None, m, None, 1])
         s.sort(key=lambda x: x[1])
-        out.append({"d": t["d"], "n": t["n"], "c": t["c"], "s": s})
+        out.append({"d": t["d"], "n": t["n"], "c": t["c"], "s": s, "o": t["o"]})
     out.sort(key=lambda t: t["s"][0][1])
     return out
 
@@ -145,7 +151,7 @@ def main():
     days = [today - timedelta(days=k) for k in range(back, -1, -1)]
     for d in days:
         f = OUT / f"{d}.json"
-        if back > 1 and f.exists() and d < today - timedelta(days=1):
+        if back > 1 and f.exists() and d < today - timedelta(days=1) and not os.environ.get("FORCE"):
             continue
         rows = fetch(sig, d)
         trains = [t for t in build(sig, d, rows) if t["d"] == d.isoformat()]
@@ -159,6 +165,42 @@ def main():
     for f in OUT.glob("*.json"):
         if f.stem < (today - timedelta(days=KEEP_DAYS)).isoformat():
             f.unlink()
+    write_recent_extra(today)
+
+
+NOT_REGIONAL = ("SJ", "Snälltåget", "VY", "VR", "Tågab", "MTR", "Flix", "Arlanda", "Norrtåg", "DSB")
+
+
+def regional(owner):
+    """Regional trains on the southern-Sweden tickets (Öresundståg, Pågatåg, Krösatåg); SJ and other operators' own trains
+    don't take those tickets, so they never count for a claim. Unknown owner (older files) counts as regional."""
+    return not owner or not any(owner.startswith(x) for x in NOT_REGIONAL)
+
+
+def write_recent_extra(today, days=30):
+    """data/recent_extra.json: trains that call at the Malmö–Älmhult line stops, for days the official history
+    (history.json) doesn't have yet. The app merges it with history and the live log, so the line has recent days too."""
+    hist = OUT.parent / "history.json"
+    have = set()
+    if hist.exists():
+        h = json.loads(hist.read_text())
+        idx = {i for i, n in enumerate(h.get("stops", [])) if STOPS.index(n) in LINE} if all(n in STOPS for n in h.get("stops", [])) else set()
+        cnt = {}
+        for t in h.get("trains", []):
+            if any(x[0] in idx for x in t["s"]):
+                cnt[t["d"]] = cnt.get(t["d"], 0) + 1
+        have = {d for d, n in cnt.items() if n >= 40}  # history has the line for that day
+    out = []
+    for k in range(days, -1, -1):
+        d = (today - timedelta(days=k)).isoformat()
+        f = OUT / f"{d}.json"
+        if d in have or not f.exists():
+            continue
+        out += [{k: v for k, v in t.items() if k != "o"} for t in json.loads(f.read_text())["trains"]
+                if any(x[0] in LINE for x in t["s"]) and regional(t.get("o"))]
+    doc = {"example": False, "updated": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M"), "stops": STOPS, "trains": out}
+    (OUT.parent / "recent_extra.json").write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")))
+    print("recent_extra.json:", len(out), "trains", flush=True)
 
 
 if __name__ == "__main__":
